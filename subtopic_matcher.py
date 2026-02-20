@@ -1,0 +1,9 @@
+flask==3.1.0
+flask-cors==5.0.1
+requests==2.32.3
+pdfplumber==0.11.4
+Pillow==11.1.0
+python-docx==1.1.2
+openpyxl==3.1.5
+rapidfuzz==3.10.1
+gunicorn==23.0.0

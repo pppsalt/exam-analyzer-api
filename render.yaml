@@ -1,0 +1,34 @@
+# Exam Analyzer — Python Service
+
+AI-powered exam paper analysis API for JEE/NEET papers.  
+Upload PDF → Extract questions → AI classification → Subtopic matching → DOCX/XLSX output.
+
+## Deploy to Render
+
+1. Push this repo to GitHub
+2. Connect to Render → New Web Service → select your repo
+3. Settings:
+   - **Runtime**: Python
+   - **Build Command**: `pip install -r requirements.txt`
+   - **Start Command**: `gunicorn app:app --bind 0.0.0.0:$PORT --timeout 120 --workers 2`
+4. Add Environment Variable:
+   - `OPENROUTER_API_KEY` = your key from https://openrouter.ai/keys
+
+## Populate Reference Data
+
+Before deploying, parse your 6 reference PDFs:
+
+```bash
+pip install pdfplumber
+python parse_references.py /path/to/reference-pdfs/
+```
+
+This generates JSON files in `reference_data/`. Commit and push.
+
+## API Endpoints
+
+- `POST /analyze` — multipart upload with `pdf_file`, `model_id`, `exam_type`, `subject`
+- `GET /download/<filename>` — download generated DOCX/XLSX
+- `GET /health` — service status
+- `GET /models` — available AI models
+- `GET /reference-stats` — loaded reference data counts
