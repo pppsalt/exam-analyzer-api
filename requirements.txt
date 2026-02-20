@@ -1,11 +1,9 @@
-services:
-  - type: web
-    name: exam-analyzer
-    runtime: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --timeout 120 --workers 2
-    envVars:
-      - key: OPENROUTER_API_KEY
-        sync: false
-      - key: PYTHON_VERSION
-        value: 3.11.6
+flask==3.1.0
+flask-cors==5.0.1
+requests==2.32.3
+pdfplumber==0.11.4
+Pillow==11.1.0
+python-docx==1.1.2
+openpyxl==3.1.5
+rapidfuzz==3.10.1
+gunicorn==23.0.0
