@@ -79,7 +79,7 @@ def call_openrouter(model_id: str, messages: list, retry: int = 0) -> dict:
         raise ValueError("OPENROUTER_API_KEY not set in environment")
 
     headers = {
-        "Authorization": f"Bearer {os.environ.get("OPENROUTER_API_KEY", "")}",
+        "Authorization": "Bearer " + os.environ.get("OPENROUTER_API_KEY", ""),
         "Content-Type": "application/json",
         "HTTP-Referer": "https://exam-analyzer.local",
     }
