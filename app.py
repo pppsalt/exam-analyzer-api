@@ -1,7 +1,3 @@
-"""
-Exam Analyzer API — Single-file version for Render deployment.
-All code in one file to avoid import issues.
-"""
 import os
 import re
 import io
