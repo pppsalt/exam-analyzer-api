@@ -142,7 +142,7 @@ def ai_analyze(questions, model_id, exam_type, subject):
         raise ValueError("OPENROUTER_API_KEY not set")
 
     q_text = ""
-    for q in questions[:50]:
+    for q in questions:
         q_text += f"Q{q['number']}: {q['text'][:500]}\n"
 
     prompt = f"""You are an expert {exam_type} exam analyst for {subject}.
@@ -172,7 +172,7 @@ Return ONLY a valid JSON array, nothing else. No markdown, no explanation."""
         "model": model_id,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.1,
-        "max_tokens": 4000,
+        "max_tokens": 16000,
     }
 
     for attempt in range(3):
@@ -327,10 +327,15 @@ def analyze():
 
         logger.info(f"[{job_id}] Found {len(questions)} questions, exam={exam_type}, subject={subject}")
 
-        # Step 2: AI Analysis
+        # Step 2: AI Analysis (in batches of 25)
         logger.info(f"[{job_id}] AI Analysis with {model_id}")
-        ai_result = ai_analyze(questions, model_id, exam_type, subject)
-        ai_questions = ai_result["questions"]
+        ai_questions = []
+        batch_size = 25
+        for i in range(0, len(questions), batch_size):
+            batch = questions[i:i+batch_size]
+            logger.info(f"[{job_id}] Analyzing batch {i//batch_size+1} ({len(batch)} questions)")
+            ai_result = ai_analyze(batch, model_id, exam_type, subject)
+            ai_questions.extend(ai_result["questions"])
 
         # Step 3: Subtopic matching
         for q in ai_questions:
