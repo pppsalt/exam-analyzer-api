@@ -1,1 +1,1196 @@
-[]
+[
+  {
+    "unit_number": "1",
+    "unit_name": "Sets, Relations and Functions",
+    "subtopic_number": "1.1",
+    "subtopic_name": "Sets and their representation"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Sets, Relations and Functions",
+    "subtopic_number": "1.2",
+    "subtopic_name": "Union of sets"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Sets, Relations and Functions",
+    "subtopic_number": "1.3",
+    "subtopic_name": "Intersection of sets"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Sets, Relations and Functions",
+    "subtopic_number": "1.4",
+    "subtopic_name": "Complement of sets"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Sets, Relations and Functions",
+    "subtopic_number": "1.5",
+    "subtopic_name": "Algebraic properties of sets"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Sets, Relations and Functions",
+    "subtopic_number": "1.6",
+    "subtopic_name": "Power set"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Sets, Relations and Functions",
+    "subtopic_number": "1.7",
+    "subtopic_name": "Relation"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Sets, Relations and Functions",
+    "subtopic_number": "1.8",
+    "subtopic_name": "Types of relations"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Sets, Relations and Functions",
+    "subtopic_number": "1.9",
+    "subtopic_name": "Equivalence relations"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Sets, Relations and Functions",
+    "subtopic_number": "1.10",
+    "subtopic_name": "Functions"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Sets, Relations and Functions",
+    "subtopic_number": "1.11",
+    "subtopic_name": "One-one functions"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Sets, Relations and Functions",
+    "subtopic_number": "1.12",
+    "subtopic_name": "Into functions"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Sets, Relations and Functions",
+    "subtopic_number": "1.13",
+    "subtopic_name": "Onto functions"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Sets, Relations and Functions",
+    "subtopic_number": "1.14",
+    "subtopic_name": "Composition of functions"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Complex Numbers and Quadratic Equations",
+    "subtopic_number": "2.1",
+    "subtopic_name": "Complex numbers as ordered pairs of reals"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Complex Numbers and Quadratic Equations",
+    "subtopic_number": "2.2",
+    "subtopic_name": "Representation of complex numbers in the form a + ib"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Complex Numbers and Quadratic Equations",
+    "subtopic_number": "2.3",
+    "subtopic_name": "Representation of complex numbers in a plane"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Complex Numbers and Quadratic Equations",
+    "subtopic_number": "2.4",
+    "subtopic_name": "Argand diagram"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Complex Numbers and Quadratic Equations",
+    "subtopic_number": "2.5",
+    "subtopic_name": "Algebra of complex numbers"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Complex Numbers and Quadratic Equations",
+    "subtopic_number": "2.6",
+    "subtopic_name": "Modulus of a complex number"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Complex Numbers and Quadratic Equations",
+    "subtopic_number": "2.7",
+    "subtopic_name": "Argument (or amplitude) of a complex number"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Complex Numbers and Quadratic Equations",
+    "subtopic_number": "2.8",
+    "subtopic_name": "Square root of a complex number"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Complex Numbers and Quadratic Equations",
+    "subtopic_number": "2.9",
+    "subtopic_name": "Triangle inequality"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Complex Numbers and Quadratic Equations",
+    "subtopic_number": "2.10",
+    "subtopic_name": "Quadratic equations in real number system and their solutions"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Complex Numbers and Quadratic Equations",
+    "subtopic_number": "2.11",
+    "subtopic_name": "Quadratic equations in complex number system and their solutions"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Complex Numbers and Quadratic Equations",
+    "subtopic_number": "2.12",
+    "subtopic_name": "Relations between roots and coefficients"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Complex Numbers and Quadratic Equations",
+    "subtopic_number": "2.13",
+    "subtopic_name": "Nature of roots"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Complex Numbers and Quadratic Equations",
+    "subtopic_number": "2.14",
+    "subtopic_name": "Formation of quadratic equations with given roots"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.1",
+    "subtopic_name": "Matrices"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.2",
+    "subtopic_name": "Algebra of matrices"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.3",
+    "subtopic_name": "Types of matrices"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.4",
+    "subtopic_name": "Determinants"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.5",
+    "subtopic_name": "Matrices of order two"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.6",
+    "subtopic_name": "Matrices of order three"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.7",
+    "subtopic_name": "Properties of determinants"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.8",
+    "subtopic_name": "Evaluation of determinants"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.9",
+    "subtopic_name": "Area of triangles using determinants"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.10",
+    "subtopic_name": "Adjoint of a square matrix"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.11",
+    "subtopic_name": "Evaluation of inverse of a square matrix using determinants"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.12",
+    "subtopic_name": "Evaluation of inverse of a square matrix using elementary transformations"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.13",
+    "subtopic_name": "Test of consistency of simultaneous linear equations in two variables"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.14",
+    "subtopic_name": "Test of consistency of simultaneous linear equations in three variables"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.15",
+    "subtopic_name": "Solution of simultaneous linear equations in two variables using determinants"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.16",
+    "subtopic_name": "Solution of simultaneous linear equations in three variables using determinants"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.17",
+    "subtopic_name": "Solution of simultaneous linear equations in two variables using matrices"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Matrices and Determinants",
+    "subtopic_number": "3.18",
+    "subtopic_name": "Solution of simultaneous linear equations in three variables using matrices"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Permutation and Combination",
+    "subtopic_number": "4.1",
+    "subtopic_name": "Fundamental principle of counting"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Permutation and Combination",
+    "subtopic_number": "4.2",
+    "subtopic_name": "Permutation as an arrangement"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Permutation and Combination",
+    "subtopic_number": "4.3",
+    "subtopic_name": "Combination as selection"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Permutation and Combination",
+    "subtopic_number": "4.4",
+    "subtopic_name": "Meaning of P(n,r)"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Permutation and Combination",
+    "subtopic_number": "4.5",
+    "subtopic_name": "Meaning of C(n,r)"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Permutation and Combination",
+    "subtopic_number": "4.6",
+    "subtopic_name": "Simple applications of permutations and combinations"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Binomial Theorem and its Simple Applications",
+    "subtopic_number": "5.1",
+    "subtopic_name": "Binomial theorem for a positive integral index"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Binomial Theorem and its Simple Applications",
+    "subtopic_number": "5.2",
+    "subtopic_name": "General term in binomial expansion"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Binomial Theorem and its Simple Applications",
+    "subtopic_number": "5.3",
+    "subtopic_name": "Middle term in binomial expansion"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Binomial Theorem and its Simple Applications",
+    "subtopic_number": "5.4",
+    "subtopic_name": "Properties of binomial coefficients"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Binomial Theorem and its Simple Applications",
+    "subtopic_number": "5.5",
+    "subtopic_name": "Simple applications of binomial theorem"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Sequence and Series",
+    "subtopic_number": "6.1",
+    "subtopic_name": "Arithmetic progressions"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Sequence and Series",
+    "subtopic_number": "6.2",
+    "subtopic_name": "Geometric progressions"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Sequence and Series",
+    "subtopic_number": "6.3",
+    "subtopic_name": "Insertion of arithmetic means between two given numbers"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Sequence and Series",
+    "subtopic_number": "6.4",
+    "subtopic_name": "Insertion of geometric means between two given numbers"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Sequence and Series",
+    "subtopic_number": "6.5",
+    "subtopic_name": "Relation between A.M and G.M"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Sequence and Series",
+    "subtopic_number": "6.6",
+    "subtopic_name": "Sum up to n terms of special series: Sn"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Sequence and Series",
+    "subtopic_number": "6.7",
+    "subtopic_name": "Sum up to n terms of special series: Sn2"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Sequence and Series",
+    "subtopic_number": "6.8",
+    "subtopic_name": "Sum up to n terms of special series: Sn3"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Sequence and Series",
+    "subtopic_number": "6.9",
+    "subtopic_name": "Arithmetico-Geometric progression"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.1",
+    "subtopic_name": "Real-valued functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.2",
+    "subtopic_name": "Algebra of functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.3",
+    "subtopic_name": "Polynomial functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.4",
+    "subtopic_name": "Rational functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.5",
+    "subtopic_name": "Trigonometric functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.6",
+    "subtopic_name": "Logarithmic functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.7",
+    "subtopic_name": "Exponential functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.8",
+    "subtopic_name": "Inverse functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.9",
+    "subtopic_name": "Graphs of simple functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.10",
+    "subtopic_name": "Limits"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.11",
+    "subtopic_name": "Continuity"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.12",
+    "subtopic_name": "Differentiability"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.13",
+    "subtopic_name": "Differentiation of the sum of two functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.14",
+    "subtopic_name": "Differentiation of the difference of two functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.15",
+    "subtopic_name": "Differentiation of the product of two functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.16",
+    "subtopic_name": "Differentiation of the quotient of two functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.17",
+    "subtopic_name": "Differentiation of trigonometric functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.18",
+    "subtopic_name": "Differentiation of inverse trigonometric functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.19",
+    "subtopic_name": "Differentiation of logarithmic functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.20",
+    "subtopic_name": "Differentiation of exponential functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.21",
+    "subtopic_name": "Differentiation of composite functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.22",
+    "subtopic_name": "Differentiation of implicit functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.23",
+    "subtopic_name": "Derivatives of order up to two"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.24",
+    "subtopic_name": "Rolle's Mean Value Theorem"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.25",
+    "subtopic_name": "Lagrange's Mean Value Theorem"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.26",
+    "subtopic_name": "Applications of derivatives: Rate of change of quantities"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.27",
+    "subtopic_name": "Applications of derivatives: Monotonic increasing functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.28",
+    "subtopic_name": "Applications of derivatives: Monotonic decreasing functions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.29",
+    "subtopic_name": "Applications of derivatives: Maxima of functions of one variable"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.30",
+    "subtopic_name": "Applications of derivatives: Minima of functions of one variable"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.31",
+    "subtopic_name": "Applications of derivatives: Tangents"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Limit, Continuity and Differentiability",
+    "subtopic_number": "7.32",
+    "subtopic_name": "Applications of derivatives: Normals"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Integral Calculus",
+    "subtopic_number": "8.1",
+    "subtopic_name": "Integral as an anti-derivative"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Integral Calculus",
+    "subtopic_number": "8.2",
+    "subtopic_name": "Fundamental integrals involving algebraic functions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Integral Calculus",
+    "subtopic_number": "8.3",
+    "subtopic_name": "Fundamental integrals involving trigonometric functions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Integral Calculus",
+    "subtopic_number": "8.4",
+    "subtopic_name": "Fundamental integrals involving exponential functions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Integral Calculus",
+    "subtopic_number": "8.5",
+    "subtopic_name": "Fundamental integrals involving logarithmic functions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Integral Calculus",
+    "subtopic_number": "8.6",
+    "subtopic_name": "Integration by substitution"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Integral Calculus",
+    "subtopic_number": "8.7",
+    "subtopic_name": "Integration by parts"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Integral Calculus",
+    "subtopic_number": "8.8",
+    "subtopic_name": "Integration by partial fractions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Integral Calculus",
+    "subtopic_number": "8.9",
+    "subtopic_name": "Integration using trigonometric identities"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Integral Calculus",
+    "subtopic_number": "8.10",
+    "subtopic_name": "Integral as limit of a sum"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Integral Calculus",
+    "subtopic_number": "8.11",
+    "subtopic_name": "Fundamental theorem of calculus"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Integral Calculus",
+    "subtopic_number": "8.12",
+    "subtopic_name": "Properties of definite integrals"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Integral Calculus",
+    "subtopic_number": "8.13",
+    "subtopic_name": "Evaluation of definite integrals"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Integral Calculus",
+    "subtopic_number": "8.14",
+    "subtopic_name": "Determining areas of regions bounded by simple curves in standard form"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Differential Equations",
+    "subtopic_number": "9.1",
+    "subtopic_name": "Ordinary differential equations"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Differential Equations",
+    "subtopic_number": "9.2",
+    "subtopic_name": "Order of differential equations"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Differential Equations",
+    "subtopic_number": "9.3",
+    "subtopic_name": "Degree of differential equations"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Differential Equations",
+    "subtopic_number": "9.4",
+    "subtopic_name": "Formation of differential equations"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Differential Equations",
+    "subtopic_number": "9.5",
+    "subtopic_name": "Solution of differential equations by separation of variables"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Differential Equations",
+    "subtopic_number": "9.6",
+    "subtopic_name": "Solution of homogeneous differential equations"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Differential Equations",
+    "subtopic_number": "9.7",
+    "subtopic_name": "Solution of linear differential equations"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.1",
+    "subtopic_name": "Cartesian system of rectangular coordinates in a plane"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.2",
+    "subtopic_name": "Distance formula"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.3",
+    "subtopic_name": "Section formula"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.4",
+    "subtopic_name": "Locus and its equation"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.5",
+    "subtopic_name": "Translation of axes"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.6",
+    "subtopic_name": "Slope of a line"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.7",
+    "subtopic_name": "Parallel lines"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.8",
+    "subtopic_name": "Perpendicular lines"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.9",
+    "subtopic_name": "Intercepts of a line on the coordinate axes"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.10",
+    "subtopic_name": "Straight line: Various forms of equations of a line"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.11",
+    "subtopic_name": "Straight line: Intersection of lines"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.12",
+    "subtopic_name": "Straight line: Angles between two lines"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.13",
+    "subtopic_name": "Straight line: Conditions for concurrence of three lines"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.14",
+    "subtopic_name": "Straight line: Distance of a point from a line"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.15",
+    "subtopic_name": "Straight line: Equations of internal bisectors of angles between two lines"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.16",
+    "subtopic_name": "Straight line: Equations of external bisectors of angles between two lines"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.17",
+    "subtopic_name": "Straight line: Coordinate of the centroid of a triangle"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.18",
+    "subtopic_name": "Straight line: Coordinate of the orthocentre of a triangle"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.19",
+    "subtopic_name": "Straight line: Coordinate of the circumcentre of a triangle"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.20",
+    "subtopic_name": "Straight line: Equation of the family of lines passing through the point of intersection of two lines"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.21",
+    "subtopic_name": "Circle: Standard form of equation of a circle"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.22",
+    "subtopic_name": "Circle: General form of the equation of a circle"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.23",
+    "subtopic_name": "Circle: Radius and centre"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.24",
+    "subtopic_name": "Circle: Equation of a circle when the endpoints of a diameter are given"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.25",
+    "subtopic_name": "Circle: Points of intersection of a line and a circle with the centre at the origin"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.26",
+    "subtopic_name": "Circle: Condition for a line to be tangent to a circle"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.27",
+    "subtopic_name": "Circle: Equation of the tangent"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.28",
+    "subtopic_name": "Conic sections: Sections of conics"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.29",
+    "subtopic_name": "Conic sections: Equation of parabola in standard form"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.30",
+    "subtopic_name": "Conic sections: Equation of ellipse in standard form"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.31",
+    "subtopic_name": "Conic sections: Equation of hyperbola in standard form"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.32",
+    "subtopic_name": "Conic sections: Condition for y = mx + c to be a tangent"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Co-ordinate Geometry",
+    "subtopic_number": "10.33",
+    "subtopic_name": "Conic sections: Point(s) of tangency"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Three Dimensional Geometry",
+    "subtopic_number": "11.1",
+    "subtopic_name": "Coordinates of a point in space"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Three Dimensional Geometry",
+    "subtopic_number": "11.2",
+    "subtopic_name": "Distance between two points"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Three Dimensional Geometry",
+    "subtopic_number": "11.3",
+    "subtopic_name": "Section formula"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Three Dimensional Geometry",
+    "subtopic_number": "11.4",
+    "subtopic_name": "Direction ratios"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Three Dimensional Geometry",
+    "subtopic_number": "11.5",
+    "subtopic_name": "Direction cosines"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Three Dimensional Geometry",
+    "subtopic_number": "11.6",
+    "subtopic_name": "Angle between two intersecting lines"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Three Dimensional Geometry",
+    "subtopic_number": "11.7",
+    "subtopic_name": "Skew lines"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Three Dimensional Geometry",
+    "subtopic_number": "11.8",
+    "subtopic_name": "Shortest distance between skew lines and its equation"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Three Dimensional Geometry",
+    "subtopic_number": "11.9",
+    "subtopic_name": "Equations of a line in different forms"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Three Dimensional Geometry",
+    "subtopic_number": "11.10",
+    "subtopic_name": "Equations of a plane in different forms"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Three Dimensional Geometry",
+    "subtopic_number": "11.11",
+    "subtopic_name": "Intersection of a line and a plane"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Three Dimensional Geometry",
+    "subtopic_number": "11.12",
+    "subtopic_name": "Coplanar lines"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Vector Algebra",
+    "subtopic_number": "12.1",
+    "subtopic_name": "Vectors"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Vector Algebra",
+    "subtopic_number": "12.2",
+    "subtopic_name": "Scalars"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Vector Algebra",
+    "subtopic_number": "12.3",
+    "subtopic_name": "Addition of vectors"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Vector Algebra",
+    "subtopic_number": "12.4",
+    "subtopic_name": "Components of a vector in two dimensions"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Vector Algebra",
+    "subtopic_number": "12.5",
+    "subtopic_name": "Components of a vector in three-dimensional space"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Vector Algebra",
+    "subtopic_number": "12.6",
+    "subtopic_name": "Scalar product"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Vector Algebra",
+    "subtopic_number": "12.7",
+    "subtopic_name": "Vector product"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Vector Algebra",
+    "subtopic_number": "12.8",
+    "subtopic_name": "Scalar triple product"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Vector Algebra",
+    "subtopic_number": "12.9",
+    "subtopic_name": "Vector triple product"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.1",
+    "subtopic_name": "Measures of dispersion"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.2",
+    "subtopic_name": "Calculation of mean for grouped data"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.3",
+    "subtopic_name": "Calculation of mean for ungrouped data"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.4",
+    "subtopic_name": "Calculation of median for grouped data"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.5",
+    "subtopic_name": "Calculation of median for ungrouped data"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.6",
+    "subtopic_name": "Calculation of mode for grouped data"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.7",
+    "subtopic_name": "Calculation of mode for ungrouped data"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.8",
+    "subtopic_name": "Calculation of standard deviation for grouped data"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.9",
+    "subtopic_name": "Calculation of standard deviation for ungrouped data"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.10",
+    "subtopic_name": "Calculation of variance for grouped data"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.11",
+    "subtopic_name": "Calculation of variance for ungrouped data"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.12",
+    "subtopic_name": "Calculation of mean deviation for grouped data"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.13",
+    "subtopic_name": "Calculation of mean deviation for ungrouped data"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.14",
+    "subtopic_name": "Probability: Probability of an event"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.15",
+    "subtopic_name": "Probability: Addition theorem of probability"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.16",
+    "subtopic_name": "Probability: Multiplication theorem of probability"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.17",
+    "subtopic_name": "Probability: Bayes' theorem"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.18",
+    "subtopic_name": "Probability distribution of a random variate"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.19",
+    "subtopic_name": "Bernoulli trials"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Statistics and Probability",
+    "subtopic_number": "13.20",
+    "subtopic_name": "Binomial distribution"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Trigonometry",
+    "subtopic_number": "14.1",
+    "subtopic_name": "Trigonometrical identities"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Trigonometry",
+    "subtopic_number": "14.2",
+    "subtopic_name": "Trigonometrical equations"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Trigonometry",
+    "subtopic_number": "14.3",
+    "subtopic_name": "Trigonometrical functions"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Trigonometry",
+    "subtopic_number": "14.4",
+    "subtopic_name": "Inverse trigonometrical functions"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Trigonometry",
+    "subtopic_number": "14.5",
+    "subtopic_name": "Properties of inverse trigonometrical functions"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Trigonometry",
+    "subtopic_number": "14.6",
+    "subtopic_name": "Heights and distances"
+  }
+]
