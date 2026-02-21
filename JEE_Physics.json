@@ -1,1 +1,2330 @@
-[]
+[
+  {
+    "unit_number": "1",
+    "unit_name": "Physics and Measurement",
+    "subtopic_number": "1.1",
+    "subtopic_name": "Physics"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Physics and Measurement",
+    "subtopic_number": "1.2",
+    "subtopic_name": "Technology"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Physics and Measurement",
+    "subtopic_number": "1.3",
+    "subtopic_name": "Society"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Physics and Measurement",
+    "subtopic_number": "1.4",
+    "subtopic_name": "S I Units"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Physics and Measurement",
+    "subtopic_number": "1.5",
+    "subtopic_name": "Fundamental units"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Physics and Measurement",
+    "subtopic_number": "1.6",
+    "subtopic_name": "Derived units"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Physics and Measurement",
+    "subtopic_number": "1.7",
+    "subtopic_name": "Least count"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Physics and Measurement",
+    "subtopic_number": "1.8",
+    "subtopic_name": "Accuracy of measuring instruments"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Physics and Measurement",
+    "subtopic_number": "1.9",
+    "subtopic_name": "Precision of measuring instruments"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Physics and Measurement",
+    "subtopic_number": "1.10",
+    "subtopic_name": "Errors in measurement"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Physics and Measurement",
+    "subtopic_number": "1.11",
+    "subtopic_name": "Dimensions of Physics quantities"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Physics and Measurement",
+    "subtopic_number": "1.12",
+    "subtopic_name": "Dimensional analysis"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Physics and Measurement",
+    "subtopic_number": "1.13",
+    "subtopic_name": "Applications of dimensional analysis"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.1",
+    "subtopic_name": "Frame of reference"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.2",
+    "subtopic_name": "Motion in a straight line"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.3",
+    "subtopic_name": "Position-time graph"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.4",
+    "subtopic_name": "Speed"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.5",
+    "subtopic_name": "Velocity"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.6",
+    "subtopic_name": "Uniform motion"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.7",
+    "subtopic_name": "Non-uniform motion"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.8",
+    "subtopic_name": "Average speed"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.9",
+    "subtopic_name": "Instantaneous velocity"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.10",
+    "subtopic_name": "Uniformly accelerated motion"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.11",
+    "subtopic_name": "Velocity-time graph"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.12",
+    "subtopic_name": "Position-time graph for uniformly accelerated motion"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.13",
+    "subtopic_name": "Relations for uniformly accelerated motion"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.14",
+    "subtopic_name": "Scalars"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.15",
+    "subtopic_name": "Vectors"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.16",
+    "subtopic_name": "Vector addition"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.17",
+    "subtopic_name": "Vector subtraction"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.18",
+    "subtopic_name": "Zero vector"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.19",
+    "subtopic_name": "Scalar products"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.20",
+    "subtopic_name": "Vector products"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.21",
+    "subtopic_name": "Unit vector"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.22",
+    "subtopic_name": "Resolution of a vector"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.23",
+    "subtopic_name": "Relative velocity"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.24",
+    "subtopic_name": "Motion in a plane"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.25",
+    "subtopic_name": "Projectile motion"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Kinematics",
+    "subtopic_number": "2.26",
+    "subtopic_name": "Uniform circular motion"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Laws of Motion",
+    "subtopic_number": "3.1",
+    "subtopic_name": "Force"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Laws of Motion",
+    "subtopic_number": "3.2",
+    "subtopic_name": "Inertia"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Laws of Motion",
+    "subtopic_number": "3.3",
+    "subtopic_name": "Newton's First Law of Motion"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Laws of Motion",
+    "subtopic_number": "3.4",
+    "subtopic_name": "Momentum"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Laws of Motion",
+    "subtopic_number": "3.5",
+    "subtopic_name": "Newton's Second Law of Motion"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Laws of Motion",
+    "subtopic_number": "3.6",
+    "subtopic_name": "Impulses"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Laws of Motion",
+    "subtopic_number": "3.7",
+    "subtopic_name": "Newton's Third Law of Motion"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Laws of Motion",
+    "subtopic_number": "3.8",
+    "subtopic_name": "Law of conservation of linear momentum"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Laws of Motion",
+    "subtopic_number": "3.9",
+    "subtopic_name": "Applications of conservation of linear momentum"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Laws of Motion",
+    "subtopic_number": "3.10",
+    "subtopic_name": "Equilibrium of concurrent forces"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Laws of Motion",
+    "subtopic_number": "3.11",
+    "subtopic_name": "Static friction"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Laws of Motion",
+    "subtopic_number": "3.12",
+    "subtopic_name": "Kinetic friction"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Laws of Motion",
+    "subtopic_number": "3.13",
+    "subtopic_name": "Laws of friction"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Laws of Motion",
+    "subtopic_number": "3.14",
+    "subtopic_name": "Rolling friction"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Laws of Motion",
+    "subtopic_number": "3.15",
+    "subtopic_name": "Dynamics of uniform circular motion: Centripetal force"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Laws of Motion",
+    "subtopic_number": "3.16",
+    "subtopic_name": "Applications of centripetal force"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Work, Energy and Power",
+    "subtopic_number": "4.1",
+    "subtopic_name": "Work done by a constant force"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Work, Energy and Power",
+    "subtopic_number": "4.2",
+    "subtopic_name": "Work done by a variable force"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Work, Energy and Power",
+    "subtopic_number": "4.3",
+    "subtopic_name": "Kinetic energy"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Work, Energy and Power",
+    "subtopic_number": "4.4",
+    "subtopic_name": "Potential energy"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Work, Energy and Power",
+    "subtopic_number": "4.5",
+    "subtopic_name": "Work-energy theorem"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Work, Energy and Power",
+    "subtopic_number": "4.6",
+    "subtopic_name": "Power"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Work, Energy and Power",
+    "subtopic_number": "4.7",
+    "subtopic_name": "Potential energy of a spring"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Work, Energy and Power",
+    "subtopic_number": "4.8",
+    "subtopic_name": "Conservation of mechanical energy"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Work, Energy and Power",
+    "subtopic_number": "4.9",
+    "subtopic_name": "Conservative forces"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Work, Energy and Power",
+    "subtopic_number": "4.10",
+    "subtopic_name": "Non-conservative forces"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Work, Energy and Power",
+    "subtopic_number": "4.11",
+    "subtopic_name": "Elastic collisions in one dimension"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Work, Energy and Power",
+    "subtopic_number": "4.12",
+    "subtopic_name": "Elastic collisions in two dimensions"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Work, Energy and Power",
+    "subtopic_number": "4.13",
+    "subtopic_name": "Inelastic collisions in one dimension"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Work, Energy and Power",
+    "subtopic_number": "4.14",
+    "subtopic_name": "Inelastic collisions in two dimensions"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Rotational Motion",
+    "subtopic_number": "5.1",
+    "subtopic_name": "Centre of mass of a two-particle system"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Rotational Motion",
+    "subtopic_number": "5.2",
+    "subtopic_name": "Centre of mass of a rigid body"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Rotational Motion",
+    "subtopic_number": "5.3",
+    "subtopic_name": "Basic concepts of rotational motion"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Rotational Motion",
+    "subtopic_number": "5.4",
+    "subtopic_name": "Moment of a force"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Rotational Motion",
+    "subtopic_number": "5.5",
+    "subtopic_name": "Torque"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Rotational Motion",
+    "subtopic_number": "5.6",
+    "subtopic_name": "Angular momentum"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Rotational Motion",
+    "subtopic_number": "5.7",
+    "subtopic_name": "Conservation of angular momentum"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Rotational Motion",
+    "subtopic_number": "5.8",
+    "subtopic_name": "Applications of conservation of angular momentum"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Rotational Motion",
+    "subtopic_number": "5.9",
+    "subtopic_name": "Moment of inertia"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Rotational Motion",
+    "subtopic_number": "5.10",
+    "subtopic_name": "Radius of gyration"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Rotational Motion",
+    "subtopic_number": "5.11",
+    "subtopic_name": "Values of moments of inertia for simple geometrical objects"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Rotational Motion",
+    "subtopic_number": "5.12",
+    "subtopic_name": "Parallel axes theorem"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Rotational Motion",
+    "subtopic_number": "5.13",
+    "subtopic_name": "Perpendicular axes theorem"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Rotational Motion",
+    "subtopic_number": "5.14",
+    "subtopic_name": "Applications of parallel and perpendicular axes theorems"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Rotational Motion",
+    "subtopic_number": "5.15",
+    "subtopic_name": "Rigid body rotation"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Rotational Motion",
+    "subtopic_number": "5.16",
+    "subtopic_name": "Equations of rotational motion"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Gravitation",
+    "subtopic_number": "6.1",
+    "subtopic_name": "Universal law of gravitation"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Gravitation",
+    "subtopic_number": "6.2",
+    "subtopic_name": "Acceleration due to gravity"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Gravitation",
+    "subtopic_number": "6.3",
+    "subtopic_name": "Variation of acceleration due to gravity with altitude"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Gravitation",
+    "subtopic_number": "6.4",
+    "subtopic_name": "Variation of acceleration due to gravity with depth"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Gravitation",
+    "subtopic_number": "6.5",
+    "subtopic_name": "Kepler's laws of planetary motion"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Gravitation",
+    "subtopic_number": "6.6",
+    "subtopic_name": "Gravitational potential energy"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Gravitation",
+    "subtopic_number": "6.7",
+    "subtopic_name": "Gravitational potential"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Gravitation",
+    "subtopic_number": "6.8",
+    "subtopic_name": "Escape velocity"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Gravitation",
+    "subtopic_number": "6.9",
+    "subtopic_name": "Orbital velocity of a satellite"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Gravitation",
+    "subtopic_number": "6.10",
+    "subtopic_name": "Geostationary satellites"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.1",
+    "subtopic_name": "Elastic behavior"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.2",
+    "subtopic_name": "Stress-strain relationship"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.3",
+    "subtopic_name": "Hooke's Law"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.4",
+    "subtopic_name": "Young's modulus"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.5",
+    "subtopic_name": "Bulk modulus"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.6",
+    "subtopic_name": "Modulus of rigidity"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.7",
+    "subtopic_name": "Pressure due to a fluid column"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.8",
+    "subtopic_name": "Pascal's law"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.9",
+    "subtopic_name": "Applications of Pascal's law"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.10",
+    "subtopic_name": "Viscosity"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.11",
+    "subtopic_name": "Stokes' law"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.12",
+    "subtopic_name": "Terminal velocity"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.13",
+    "subtopic_name": "Streamline flow"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.14",
+    "subtopic_name": "Turbulent flow"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.15",
+    "subtopic_name": "Reynolds number"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.16",
+    "subtopic_name": "Bernoulli's principle"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.17",
+    "subtopic_name": "Applications of Bernoulli's principle"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.18",
+    "subtopic_name": "Surface energy"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.19",
+    "subtopic_name": "Surface tension"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.20",
+    "subtopic_name": "Angle of contact"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.21",
+    "subtopic_name": "Application of surface tension: Drops"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.22",
+    "subtopic_name": "Application of surface tension: Bubbles"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.23",
+    "subtopic_name": "Application of surface tension: Capillary rise"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.24",
+    "subtopic_name": "Heat"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.25",
+    "subtopic_name": "Temperature"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.26",
+    "subtopic_name": "Thermal expansion"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.27",
+    "subtopic_name": "Specific heat capacity"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.28",
+    "subtopic_name": "Calorimetry"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.29",
+    "subtopic_name": "Change of state"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.30",
+    "subtopic_name": "Latent heat"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.31",
+    "subtopic_name": "Heat transfer: Conduction"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.32",
+    "subtopic_name": "Heat transfer: Convection"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.33",
+    "subtopic_name": "Heat transfer: Radiation"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Properties of Solids and Liquids",
+    "subtopic_number": "7.34",
+    "subtopic_name": "Newton's law of cooling"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Thermodynamics",
+    "subtopic_number": "8.1",
+    "subtopic_name": "Thermal equilibrium"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Thermodynamics",
+    "subtopic_number": "8.2",
+    "subtopic_name": "Zeroth law of thermodynamics"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Thermodynamics",
+    "subtopic_number": "8.3",
+    "subtopic_name": "Concept of temperature"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Thermodynamics",
+    "subtopic_number": "8.4",
+    "subtopic_name": "Heat"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Thermodynamics",
+    "subtopic_number": "8.5",
+    "subtopic_name": "Work"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Thermodynamics",
+    "subtopic_number": "8.6",
+    "subtopic_name": "Internal energy"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Thermodynamics",
+    "subtopic_number": "8.7",
+    "subtopic_name": "First law of thermodynamics"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Thermodynamics",
+    "subtopic_number": "8.8",
+    "subtopic_name": "Second law of thermodynamics: Reversible processes"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Thermodynamics",
+    "subtopic_number": "8.9",
+    "subtopic_name": "Second law of thermodynamics: Irreversible processes"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Thermodynamics",
+    "subtopic_number": "8.10",
+    "subtopic_name": "Carnot engine"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Thermodynamics",
+    "subtopic_number": "8.11",
+    "subtopic_name": "Efficiency of Carnot engine"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Kinetic Theory of Gases",
+    "subtopic_number": "9.1",
+    "subtopic_name": "Equation of state of a perfect gas"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Kinetic Theory of Gases",
+    "subtopic_number": "9.2",
+    "subtopic_name": "Work done on compressing a gas"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Kinetic Theory of Gases",
+    "subtopic_number": "9.3",
+    "subtopic_name": "Kinetic theory of gases: Assumptions"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Kinetic Theory of Gases",
+    "subtopic_number": "9.4",
+    "subtopic_name": "Kinetic theory of gases: Concept of pressure"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Kinetic Theory of Gases",
+    "subtopic_number": "9.5",
+    "subtopic_name": "Kinetic energy"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Kinetic Theory of Gases",
+    "subtopic_number": "9.6",
+    "subtopic_name": "Temperature"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Kinetic Theory of Gases",
+    "subtopic_number": "9.7",
+    "subtopic_name": "RMS speed of gas molecules"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Kinetic Theory of Gases",
+    "subtopic_number": "9.8",
+    "subtopic_name": "Degrees of freedom"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Kinetic Theory of Gases",
+    "subtopic_number": "9.9",
+    "subtopic_name": "Law of equipartition of energy"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Kinetic Theory of Gases",
+    "subtopic_number": "9.10",
+    "subtopic_name": "Applications to specific heat capacities of gases"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Kinetic Theory of Gases",
+    "subtopic_number": "9.11",
+    "subtopic_name": "Mean free path"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Kinetic Theory of Gases",
+    "subtopic_number": "9.12",
+    "subtopic_name": "Avogadro's number"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.1",
+    "subtopic_name": "Periodic motion: Period"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.2",
+    "subtopic_name": "Periodic motion: Frequency"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.3",
+    "subtopic_name": "Periodic motion: Displacement as a function of time"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.4",
+    "subtopic_name": "Periodic functions"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.5",
+    "subtopic_name": "Simple harmonic motion (S.H.M.) and its equation"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.6",
+    "subtopic_name": "Phase"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.7",
+    "subtopic_name": "Oscillations of a spring: Restoring force"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.8",
+    "subtopic_name": "Oscillations of a spring: Force constant"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.9",
+    "subtopic_name": "Energy in S.H.M.: Kinetic energy"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.10",
+    "subtopic_name": "Energy in S.H.M.: Potential energy"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.11",
+    "subtopic_name": "Simple pendulum: Derivation of expression for its time period"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.12",
+    "subtopic_name": "Free oscillations"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.13",
+    "subtopic_name": "Forced oscillations"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.14",
+    "subtopic_name": "Damped oscillations"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.15",
+    "subtopic_name": "Resonance"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.16",
+    "subtopic_name": "Wave motion"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.17",
+    "subtopic_name": "Longitudinal waves"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.18",
+    "subtopic_name": "Transverse waves"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.19",
+    "subtopic_name": "Speed of a wave"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.20",
+    "subtopic_name": "Displacement relation for a progressive wave"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.21",
+    "subtopic_name": "Principle of superposition of waves"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.22",
+    "subtopic_name": "Reflection of waves"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.23",
+    "subtopic_name": "Standing waves in strings"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.24",
+    "subtopic_name": "Standing waves in organ pipes"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.25",
+    "subtopic_name": "Fundamental mode"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.26",
+    "subtopic_name": "Harmonics"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.27",
+    "subtopic_name": "Beats"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Oscillation and Waves",
+    "subtopic_number": "10.28",
+    "subtopic_name": "Doppler Effect in sound"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.1",
+    "subtopic_name": "Electric charges"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.2",
+    "subtopic_name": "Conservation of charge"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.3",
+    "subtopic_name": "Coulomb's law: Forces between two point charges"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.4",
+    "subtopic_name": "Forces between multiple charges"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.5",
+    "subtopic_name": "Superposition principle"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.6",
+    "subtopic_name": "Continuous charge distribution"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.7",
+    "subtopic_name": "Electric field: Electric field due to a point charge"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.8",
+    "subtopic_name": "Electric field lines"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.9",
+    "subtopic_name": "Electric dipole"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.10",
+    "subtopic_name": "Electric field due to a dipole"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.11",
+    "subtopic_name": "Torque on a dipole in a uniform electric field"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.12",
+    "subtopic_name": "Electric flux"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.13",
+    "subtopic_name": "Gauss's law"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.14",
+    "subtopic_name": "Gauss's law application: Field due to infinitely long uniformly charged straight wire"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.15",
+    "subtopic_name": "Gauss's law application: Field due to uniformly charged infinite plane sheet"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.16",
+    "subtopic_name": "Gauss's law application: Field due to uniformly charged thin spherical shell"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.17",
+    "subtopic_name": "Electric potential: Calculation for a point charge"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.18",
+    "subtopic_name": "Electric potential: Calculation for an electric dipole"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.19",
+    "subtopic_name": "Electric potential: Calculation for a system of charges"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.20",
+    "subtopic_name": "Equipotential surfaces"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.21",
+    "subtopic_name": "Electrical potential energy of a system of two point charges in an electrostatic field"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.22",
+    "subtopic_name": "Conductors"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.23",
+    "subtopic_name": "Insulators"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.24",
+    "subtopic_name": "Dielectrics"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.25",
+    "subtopic_name": "Electric polarization"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.26",
+    "subtopic_name": "Capacitor"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.27",
+    "subtopic_name": "Combination of capacitors in series"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.28",
+    "subtopic_name": "Combination of capacitors in parallel"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.29",
+    "subtopic_name": "Capacitance of a parallel plate capacitor without dielectric medium between the plates"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.30",
+    "subtopic_name": "Capacitance of a parallel plate capacitor with dielectric medium between the plates"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "Electrostatics",
+    "subtopic_number": "11.31",
+    "subtopic_name": "Energy stored in a capacitor"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.1",
+    "subtopic_name": "Electric current"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.2",
+    "subtopic_name": "Drift velocity"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.3",
+    "subtopic_name": "Ohm's law"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.4",
+    "subtopic_name": "Electrical resistance"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.5",
+    "subtopic_name": "Resistances of different materials"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.6",
+    "subtopic_name": "V-I characteristics of Ohmic conductors"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.7",
+    "subtopic_name": "V-I characteristics of non-Ohmic conductors"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.8",
+    "subtopic_name": "Electrical energy"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.9",
+    "subtopic_name": "Electrical power"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.10",
+    "subtopic_name": "Electrical resistivity"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.11",
+    "subtopic_name": "Color code for resistors"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.12",
+    "subtopic_name": "Series combination of resistors"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.13",
+    "subtopic_name": "Parallel combination of resistors"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.14",
+    "subtopic_name": "Temperature dependence of resistance"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.15",
+    "subtopic_name": "Electric cell"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.16",
+    "subtopic_name": "Internal resistance of an electric cell"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.17",
+    "subtopic_name": "Potential difference of a cell"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.18",
+    "subtopic_name": "emf of a cell"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.19",
+    "subtopic_name": "Combination of cells in series"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.20",
+    "subtopic_name": "Combination of cells in parallel"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.21",
+    "subtopic_name": "Kirchhoff's laws"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.22",
+    "subtopic_name": "Applications of Kirchhoff's laws"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.23",
+    "subtopic_name": "Wheatstone bridge"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.24",
+    "subtopic_name": "Metre bridge"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.25",
+    "subtopic_name": "Potentiometer: Principle"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Current Electricity",
+    "subtopic_number": "12.26",
+    "subtopic_name": "Potentiometer: Applications"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.1",
+    "subtopic_name": "Biot-Savart law"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.2",
+    "subtopic_name": "Application of Biot-Savart law to current carrying circular loop"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.3",
+    "subtopic_name": "Ampere's law"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.4",
+    "subtopic_name": "Application of Ampere's law to infinitely long current carrying straight wire"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.5",
+    "subtopic_name": "Application of Ampere's law to solenoid"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.6",
+    "subtopic_name": "Force on a moving charge in uniform magnetic field"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.7",
+    "subtopic_name": "Force on a moving charge in uniform electric field"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.8",
+    "subtopic_name": "Cyclotron"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.9",
+    "subtopic_name": "Force on a current-carrying conductor in a uniform magnetic field"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.10",
+    "subtopic_name": "Force between two parallel current-carrying conductors: Definition of ampere"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.11",
+    "subtopic_name": "Torque experienced by a current loop in a uniform magnetic field"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.12",
+    "subtopic_name": "Moving coil galvanometer"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.13",
+    "subtopic_name": "Current sensitivity of moving coil galvanometer"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.14",
+    "subtopic_name": "Conversion of moving coil galvanometer to ammeter"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.15",
+    "subtopic_name": "Conversion of moving coil galvanometer to voltmeter"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.16",
+    "subtopic_name": "Current loop as a magnetic dipole"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.17",
+    "subtopic_name": "Magnetic dipole moment of a current loop"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.18",
+    "subtopic_name": "Bar magnet as an equivalent solenoid"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.19",
+    "subtopic_name": "Magnetic field lines"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.20",
+    "subtopic_name": "Earth's magnetic field"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.21",
+    "subtopic_name": "Magnetic elements"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.22",
+    "subtopic_name": "Para-magnetic substances"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.23",
+    "subtopic_name": "Dia-magnetic substances"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.24",
+    "subtopic_name": "Ferromagnetic substances"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.25",
+    "subtopic_name": "Magnetic susceptibility"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.26",
+    "subtopic_name": "Magnetic permeability"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.27",
+    "subtopic_name": "Hysteresis"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.28",
+    "subtopic_name": "Electromagnets"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Magnetic Effect of Current and Magnetism",
+    "subtopic_number": "13.29",
+    "subtopic_name": "Permanent magnets"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.1",
+    "subtopic_name": "Electromagnetic induction: Faraday's law"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.2",
+    "subtopic_name": "Induced emf"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.3",
+    "subtopic_name": "Induced current"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.4",
+    "subtopic_name": "Lenz's Law"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.5",
+    "subtopic_name": "Eddy currents"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.6",
+    "subtopic_name": "Self inductance"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.7",
+    "subtopic_name": "Mutual inductance"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.8",
+    "subtopic_name": "Alternating currents"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.9",
+    "subtopic_name": "Peak value of alternating current"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.10",
+    "subtopic_name": "RMS value of alternating current"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.11",
+    "subtopic_name": "Peak value of alternating voltage"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.12",
+    "subtopic_name": "RMS value of alternating voltage"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.13",
+    "subtopic_name": "Reactance"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.14",
+    "subtopic_name": "Impedance"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.15",
+    "subtopic_name": "LCR series circuit"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.16",
+    "subtopic_name": "Resonance"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.17",
+    "subtopic_name": "Quality factor"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.18",
+    "subtopic_name": "Power in AC circuits"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.19",
+    "subtopic_name": "Wattless current"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.20",
+    "subtopic_name": "AC generator"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Electromagnetic Induction and Alternating Current",
+    "subtopic_number": "14.21",
+    "subtopic_name": "Transformer"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Electromagnetic Waves",
+    "subtopic_number": "15.1",
+    "subtopic_name": "Electromagnetic waves"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Electromagnetic Waves",
+    "subtopic_number": "15.2",
+    "subtopic_name": "Characteristics of electromagnetic waves"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Electromagnetic Waves",
+    "subtopic_number": "15.3",
+    "subtopic_name": "Transverse nature of electromagnetic waves"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Electromagnetic Waves",
+    "subtopic_number": "15.4",
+    "subtopic_name": "Electromagnetic spectrum: Radio waves"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Electromagnetic Waves",
+    "subtopic_number": "15.5",
+    "subtopic_name": "Electromagnetic spectrum: Microwaves"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Electromagnetic Waves",
+    "subtopic_number": "15.6",
+    "subtopic_name": "Electromagnetic spectrum: Infrared"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Electromagnetic Waves",
+    "subtopic_number": "15.7",
+    "subtopic_name": "Electromagnetic spectrum: Visible"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Electromagnetic Waves",
+    "subtopic_number": "15.8",
+    "subtopic_name": "Electromagnetic spectrum: Ultraviolet"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Electromagnetic Waves",
+    "subtopic_number": "15.9",
+    "subtopic_name": "Electromagnetic spectrum: X-rays"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Electromagnetic Waves",
+    "subtopic_number": "15.10",
+    "subtopic_name": "Electromagnetic spectrum: Gamma rays"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Electromagnetic Waves",
+    "subtopic_number": "15.11",
+    "subtopic_name": "Applications of electromagnetic waves"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.1",
+    "subtopic_name": "Reflection of light at plane surfaces"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.2",
+    "subtopic_name": "Reflection of light at spherical surfaces"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.3",
+    "subtopic_name": "Refraction of light at plane surfaces"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.4",
+    "subtopic_name": "Refraction of light at spherical surfaces"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.5",
+    "subtopic_name": "Mirror formula"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.6",
+    "subtopic_name": "Total internal reflection"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.7",
+    "subtopic_name": "Applications of total internal reflection"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.8",
+    "subtopic_name": "Deviation of light by a prism"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.9",
+    "subtopic_name": "Dispersion of light by a prism"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.10",
+    "subtopic_name": "Lens formula"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.11",
+    "subtopic_name": "Magnification"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.12",
+    "subtopic_name": "Power of a lens"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.13",
+    "subtopic_name": "Combination of thin lenses in contact"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.14",
+    "subtopic_name": "Microscope"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.15",
+    "subtopic_name": "Astronomical telescope: Reflecting"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.16",
+    "subtopic_name": "Astronomical telescope: Refracting"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.17",
+    "subtopic_name": "Magnifying powers of microscope"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.18",
+    "subtopic_name": "Magnifying powers of astronomical telescope"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.19",
+    "subtopic_name": "Wave optics: Wavefront"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.20",
+    "subtopic_name": "Wave optics: Huygens' principle"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.21",
+    "subtopic_name": "Laws of reflection using Huygens' principle"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.22",
+    "subtopic_name": "Laws of refraction using Huygens' principle"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.23",
+    "subtopic_name": "Interference"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.24",
+    "subtopic_name": "Young's double-slit experiment"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.25",
+    "subtopic_name": "Expression for fringe width"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.26",
+    "subtopic_name": "Coherent sources"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.27",
+    "subtopic_name": "Sustained interference of light"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.28",
+    "subtopic_name": "Diffraction due to a single slit"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.29",
+    "subtopic_name": "Width of central maximum"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.30",
+    "subtopic_name": "Resolving power of microscopes"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.31",
+    "subtopic_name": "Resolving power of astronomical telescopes"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.32",
+    "subtopic_name": "Polarization"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.33",
+    "subtopic_name": "Plane-polarized light"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.34",
+    "subtopic_name": "Brewster's law"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.35",
+    "subtopic_name": "Uses of plane-polarized light"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Optics",
+    "subtopic_number": "16.36",
+    "subtopic_name": "Uses of Polaroid"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Dual Nature of Matter and Radiation",
+    "subtopic_number": "17.1",
+    "subtopic_name": "Dual nature of radiation"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Dual Nature of Matter and Radiation",
+    "subtopic_number": "17.2",
+    "subtopic_name": "Photoelectric effect"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Dual Nature of Matter and Radiation",
+    "subtopic_number": "17.3",
+    "subtopic_name": "Hertz's observations"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Dual Nature of Matter and Radiation",
+    "subtopic_number": "17.4",
+    "subtopic_name": "Lenard's observations"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Dual Nature of Matter and Radiation",
+    "subtopic_number": "17.5",
+    "subtopic_name": "Einstein's photoelectric equation"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Dual Nature of Matter and Radiation",
+    "subtopic_number": "17.6",
+    "subtopic_name": "Particle nature of light"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Dual Nature of Matter and Radiation",
+    "subtopic_number": "17.7",
+    "subtopic_name": "Matter waves: Wave nature of particle"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Dual Nature of Matter and Radiation",
+    "subtopic_number": "17.8",
+    "subtopic_name": "de Broglie relation"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Dual Nature of Matter and Radiation",
+    "subtopic_number": "17.9",
+    "subtopic_name": "Davisson-Germer experiment"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.1",
+    "subtopic_name": "Alpha-particle scattering experiment"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.2",
+    "subtopic_name": "Rutherford's model of atom"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.3",
+    "subtopic_name": "Bohr model"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.4",
+    "subtopic_name": "Energy levels"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.5",
+    "subtopic_name": "Hydrogen spectrum"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.6",
+    "subtopic_name": "Composition of nucleus"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.7",
+    "subtopic_name": "Size of nucleus"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.8",
+    "subtopic_name": "Atomic masses"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.9",
+    "subtopic_name": "Isotopes"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.10",
+    "subtopic_name": "Isobars"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.11",
+    "subtopic_name": "Isotones"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.12",
+    "subtopic_name": "Radioactivity: Alpha particles/rays"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.13",
+    "subtopic_name": "Radioactivity: Beta particles/rays"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.14",
+    "subtopic_name": "Radioactivity: Gamma particles/rays"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.15",
+    "subtopic_name": "Properties of alpha particles/rays"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.16",
+    "subtopic_name": "Properties of beta particles/rays"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.17",
+    "subtopic_name": "Properties of gamma particles/rays"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.18",
+    "subtopic_name": "Radioactive decay law"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.19",
+    "subtopic_name": "Mass-energy relation"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.20",
+    "subtopic_name": "Mass defect"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.21",
+    "subtopic_name": "Binding energy per nucleon"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.22",
+    "subtopic_name": "Variation of binding energy per nucleon with mass number"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.23",
+    "subtopic_name": "Nuclear fission"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Atoms and Nuclei",
+    "subtopic_number": "18.24",
+    "subtopic_name": "Nuclear fusion"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.1",
+    "subtopic_name": "Semiconductors"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.2",
+    "subtopic_name": "Semiconductor diode"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.3",
+    "subtopic_name": "I-V characteristics of semiconductor diode in forward bias"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.4",
+    "subtopic_name": "I-V characteristics of semiconductor diode in reverse bias"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.5",
+    "subtopic_name": "Diode as a rectifier"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.6",
+    "subtopic_name": "I-V characteristics of LED"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.7",
+    "subtopic_name": "I-V characteristics of photodiode"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.8",
+    "subtopic_name": "I-V characteristics of solar cell"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.9",
+    "subtopic_name": "I-V characteristics of Zener diode"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.10",
+    "subtopic_name": "Zener diode as a voltage regulator"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.11",
+    "subtopic_name": "Junction transistor"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.12",
+    "subtopic_name": "Transistor action"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.13",
+    "subtopic_name": "Characteristics of a transistor"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.14",
+    "subtopic_name": "Transistor as an amplifier (common emitter configuration)"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.15",
+    "subtopic_name": "Transistor as an oscillator"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.16",
+    "subtopic_name": "Logic gates: OR"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.17",
+    "subtopic_name": "Logic gates: AND"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.18",
+    "subtopic_name": "Logic gates: NOT"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.19",
+    "subtopic_name": "Logic gates: NAND"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.20",
+    "subtopic_name": "Logic gates: NOR"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Electronic Devices",
+    "subtopic_number": "19.21",
+    "subtopic_name": "Transistor as a switch"
+  }
+]
