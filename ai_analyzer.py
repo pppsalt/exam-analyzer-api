@@ -15,6 +15,12 @@ SYSTEM_PROMPT = """You are an expert exam paper analyzer for Indian competitive 
 
 TASK: You are given images of an exam paper. Look at each page carefully. Identify and classify every question you can see.
 
+CRITICAL — QUESTION NUMBERING:
+- Use the EXACT question number printed in the PDF (Q.1, Q.2, etc.)
+- Do NOT renumber questions. If the paper starts at Q.31, your first question sno must be 31
+- Maintain the exact serial order as printed in the paper
+- The "sno" field must match the question number shown in the PDF
+
 CRITICAL RULES FOR question_text:
 - READ the actual mathematical expressions, formulas, and symbols from the images
 - Write question text using Unicode characters:
@@ -30,7 +36,6 @@ CRITICAL RULES FOR question_text:
 - If a question has a diagram/figure/graph/circuit, set has_diagram to true and describe it
 
 RULES FOR classification:
-- subject: "Physics", "Chemistry", "Mathematics", or "Biology"
 - topic: The broad unit/chapter name (e.g., "Three Dimensional Geometry", "Thermodynamics")
 - subtopic_name: Be SPECIFIC — use exact terminology like "Shortest distance between two skew lines" not just "3D Geometry"
 - concept_tested: One clear sentence describing the exact concept or principle being tested
@@ -43,7 +48,6 @@ RULES FOR classification:
 
 RESPOND IN JSON FORMAT ONLY — no markdown, no explanation:
 {
-  "exam_type": "JEE",
   "questions": [
     {
       "sno": 1,
@@ -60,10 +64,11 @@ RESPOND IN JSON FORMAT ONLY — no markdown, no explanation:
 }"""
 
 
-def build_vision_messages(page_images: list, exam_type: str = None, subject: str = None) -> list:
+def build_vision_messages(page_images: list, exam_type: str = None, subjects: list = None) -> list:
     """
     Build multimodal message payload with page images for vision AI.
     Each page image is sent as a base64 image_url.
+    subjects is now a list like ["Physics", "Chemistry", "Mathematics"]
     """
     # Build the user message content: images first, then text instruction
     content = []
@@ -77,12 +82,21 @@ def build_vision_messages(page_images: list, exam_type: str = None, subject: str
             }
         })
 
-    # Add text instruction
+    # Build instruction with exam and subject context
     instruction = "Analyze this exam paper. Look at every page image above. Identify and classify each question."
-    if exam_type and exam_type != "UNKNOWN":
-        instruction += f"\n\nNote: This is a {exam_type} pattern paper."
-    if subject and subject != "UNKNOWN":
-        instruction += f"\nSubject: {subject}"
+    instruction += "\n\nIMPORTANT: Use the EXACT question numbers as printed in the PDF. Do NOT renumber."
+
+    if exam_type:
+        instruction += f"\n\nThis is a {exam_type} exam paper."
+
+    if subjects:
+        subjects_str = ", ".join(subjects)
+        instruction += f"\nSubjects in this paper: {subjects_str}"
+        instruction += f"\nClassify each question's subject as ONLY one of: {subjects_str}"
+
+        # Map Botany/Zoology to Biology for NEET reference matching
+        if "Botany" in subjects or "Zoology" in subjects:
+            instruction += "\nNote: For Botany questions, set subject to 'Botany'. For Zoology questions, set subject to 'Zoology'."
 
     content.append({"type": "text", "text": instruction})
 
@@ -192,9 +206,8 @@ def parse_ai_response(raw_content: str) -> dict:
         else:
             q["difficulty"] = diff
 
-        # Add question_label if not present
-        if "question_label" not in q:
-            q["question_label"] = f"Q.{q.get('sno', 0)}"
+        # Add question_label using the exact sno from the PDF
+        q["question_label"] = f"Q.{q.get('sno', 0)}"
 
     return parsed
 
@@ -210,41 +223,35 @@ def chunk_pages(page_images: list, max_pages_per_chunk: int = 8) -> list:
     return chunks
 
 
-def analyze(page_images: list, model_id: str, exam_type: str = None, subject: str = None) -> dict:
+def analyze(page_images: list, model_id: str, exam_type: str = None, subjects: list = None) -> dict:
     """
     Main entry point: analyze PDF page images with a vision-capable AI model.
     Handles chunking for large papers (>8 pages).
     Returns combined classification results.
+
+    subjects: list of subjects like ["Physics", "Chemistry", "Mathematics"]
     """
     chunks = chunk_pages(page_images)
     logger.info(f"Processing {len(page_images)} pages in {len(chunks)} chunk(s)")
 
     all_results = []
     total_time = 0
-    detected_exam = exam_type
 
     for i, chunk in enumerate(chunks):
         logger.info(f"Processing chunk {i+1}/{len(chunks)} ({len(chunk)} pages)")
-        messages = build_vision_messages(chunk, exam_type, subject)
+        messages = build_vision_messages(chunk, exam_type, subjects)
 
         response = call_openrouter(model_id, messages)
         total_time += response["elapsed"]
 
         parsed = parse_ai_response(response["content"])
-
-        if not detected_exam or detected_exam == "UNKNOWN":
-            detected_exam = parsed.get("exam_type", "UNKNOWN")
-
         all_results.extend(parsed["questions"])
 
-    # Re-number if we had multiple chunks (avoid duplicate sno)
-    if len(chunks) > 1:
-        for idx, q in enumerate(all_results):
-            q["sno"] = idx + 1
-            q["question_label"] = f"Q.{idx + 1}"
+    # Sort by sno to maintain PDF order (do NOT renumber)
+    all_results.sort(key=lambda q: q.get("sno", 0))
 
     return {
-        "exam_type": detected_exam,
+        "exam_type": exam_type,
         "questions": all_results,
         "model_used": model_id,
         "processing_time": total_time,
