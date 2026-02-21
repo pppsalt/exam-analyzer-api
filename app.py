@@ -1,246 +1,389 @@
 """
-AI Analysis Engine
-Sends extracted questions to selected AI model via OpenRouter.
-Returns structured classification per question.
+Exam Analyzer API — Single-file version for Render deployment.
+All code in one file to avoid import issues.
 """
 import os
+import re
+import io
 import json
-import logging
 import time
-import requests
+import uuid
+import base64
+import logging
+import tempfile
+import traceback
+from datetime import datetime
 
+import requests as http_requests
+import pdfplumber
+from PIL import Image
+from flask import Flask, request, jsonify, send_file
+from flask_cors import CORS
+from rapidfuzz import fuzz
+from docx import Document
+from docx.shared import Inches, Pt, Cm, RGBColor
+from docx.enum.table import WD_TABLE_ALIGNMENT
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from openpyxl import Workbook
+from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 
+# ─── Setup ───────────────────────────────────────────────────────────
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+logger = logging.getLogger("exam-analyzer")
 
-logger = logging.getLogger(__name__)
+application = Flask(__name__)
+CORS(application)
 
-SYSTEM_PROMPT = """You are an expert exam paper analyzer for Indian competitive exams (JEE Main, JEE Advanced, NEET-UG).
+TEMP_DIR = tempfile.mkdtemp(prefix="exam_")
+OUTPUT_DIR = os.path.join(TEMP_DIR, "outputs")
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-TASK: Analyze the following extracted exam paper text. For each question, provide structured classification.
+OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
-RULES FOR question_text:
-- Preserve ALL Unicode characters exactly as they appear
-- Use Unicode subscripts: H₂O, CO₃²⁻, NH₄⁺, x₁, x₂, aₙ
-- Use Unicode superscripts: x², e⁻⁴, A²⁰²⁵, 10⁻³, m³
-- Use Greek letters: α, β, γ, θ, λ, Δ, Σ, π, ∞, ε, μ, ω, φ
-- Use math symbols: ∫, ∑, √, ≥, ≤, ≠, →, ⇌, ∈, ℝ, ℂ, ∂, ∇
-- Use vector notation: a⃗, î, ĵ, k̂
-- Write fractions inline: dy/dx, x²/a², sin²x/cos²x
-- For matrices, write as: [[a,b],[c,d]] format
+# ─── Reference Data (loaded from JSON files if available) ────────────
+REF_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "reference_data")
+_ref_cache = {}
 
-RULES FOR classification:
-- subject: "Physics", "Chemistry", "Mathematics", or "Biology"
-- topic: The broad unit/chapter name
-- subtopic_name: Be as SPECIFIC as possible — this will be matched to a reference database. Use exact terminology like "Evaluation of definite integrals" not just "Integration"
-- concept_tested: One clear sentence describing the exact concept or principle
-- difficulty: 
-  * "Easy" = direct formula application, single concept, 1-2 steps
-  * "Moderate" = multi-step OR combines 2 concepts
-  * "Difficult" = multi-concept integration, non-standard approach, lengthy derivation
-- has_diagram: true if the question references a figure, diagram, circuit, graph, or structure
-- diagram_description: if has_diagram is true, describe what the diagram shows
+def load_reference(exam_type, subject):
+    key = f"{exam_type}_{subject}"
+    if key in _ref_cache:
+        return _ref_cache[key]
+    filepath = os.path.join(REF_DIR, f"{key}.json")
+    if not os.path.exists(filepath):
+        _ref_cache[key] = []
+        return []
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            rows = json.load(f)
+        _ref_cache[key] = rows
+        logger.info(f"Loaded {len(rows)} subtopics for {key}")
+        return rows
+    except Exception:
+        _ref_cache[key] = []
+        return []
 
-RESPOND IN JSON FORMAT ONLY — no markdown, no explanation:
-{
-  "exam_type": "JEE",
-  "questions": [
-    {
-      "sno": 1,
-      "question_text": "...",
-      "subject": "Mathematics",
-      "topic": "...",
-      "subtopic_name": "...",
-      "concept_tested": "...",
-      "difficulty": "Moderate",
-      "has_diagram": false,
-      "diagram_description": null
-    }
-  ]
-}"""
+def match_subtopic(ai_subtopic, ai_topic, exam_type, subject):
+    refs = load_reference(exam_type, subject)
+    if not refs:
+        return {"subtopic_number": "N/A", "matched_name": None, "confidence": 0, "unit_name": None}
+    best_match, best_score = None, 0
+    for r in refs:
+        for text in [r["subtopic_name"], f"{r['unit_name']}: {r['subtopic_name']}"]:
+            for query in [ai_subtopic, f"{ai_topic}: {ai_subtopic}", f"{ai_topic} {ai_subtopic}"]:
+                score = fuzz.token_sort_ratio(query.lower(), text.lower())
+                if score > best_score:
+                    best_score = score
+                    best_match = r
+    if best_match and best_score >= 60:
+        return {"subtopic_number": best_match["subtopic_number"], "matched_name": best_match["subtopic_name"],
+                "unit_name": best_match["unit_name"], "confidence": best_score}
+    return {"subtopic_number": "N/A", "matched_name": None, "confidence": best_score, "unit_name": None}
 
+# ─── PDF Extraction ──────────────────────────────────────────────────
+def extract_pdf(pdf_path, output_dir):
+    text = ""
+    images = []
+    try:
+        with pdfplumber.open(pdf_path) as pdf:
+            for i, page in enumerate(pdf.pages):
+                t = page.extract_text(x_tolerance=2, y_tolerance=2)
+                if t:
+                    text += t + "\n"
+                for j, img in enumerate(page.images[:5]):
+                    try:
+                        bbox = (img["x0"], img["top"], img["x1"], img["bottom"])
+                        cropped = page.within_bbox(bbox).to_image(resolution=150)
+                        img_path = os.path.join(output_dir, f"img_p{i+1}_{j+1}.png")
+                        cropped.save(img_path)
+                        images.append({"page": i+1, "path": img_path})
+                    except Exception:
+                        pass
+    except Exception as e:
+        logger.error(f"PDF extraction error: {e}")
 
-def build_messages(extracted_text: str, exam_type: str = None, subject: str = None) -> list:
-    """Build the message payload for the AI model."""
-    user_content = f"Analyze this exam paper and classify each question:\n\n{extracted_text}"
+    # Parse questions
+    questions = []
+    lines = text.split("\n")
+    current_q = None
+    q_pattern = re.compile(r'^(?:Q\.?\s*)?(\d{1,3})[\.\)\:]?\s+(.+)', re.IGNORECASE)
 
-    if exam_type and exam_type != "UNKNOWN":
-        user_content += f"\n\nNote: This is a {exam_type} pattern paper."
-    if subject and subject != "UNKNOWN":
-        user_content += f"\nSubject: {subject}"
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+        m = q_pattern.match(line)
+        if m:
+            if current_q:
+                questions.append(current_q)
+            num = int(m.group(1))
+            current_q = {"number": num, "text": m.group(2), "label": f"Q.{num}", "diagram_paths": []}
+        elif current_q:
+            current_q["text"] += " " + line
 
-    return [
-        {"role": "system", "content": SYSTEM_PROMPT},
-        {"role": "user", "content": user_content},
-    ]
+    if current_q:
+        questions.append(current_q)
 
+    # Auto-detect exam type and subject
+    text_lower = text.lower()
+    exam_type = "UNKNOWN"
+    if "jee" in text_lower:
+        exam_type = "JEE"
+    elif "neet" in text_lower:
+        exam_type = "NEET"
 
-def call_openrouter(model_id: str, messages: list, retry: int = 0) -> dict:
-    """Call OpenRouter API with the selected model."""
-    if not os.environ.get("OPENROUTER_API_KEY", ""):
-        raise ValueError("OPENROUTER_API_KEY not set in environment")
+    subject = "UNKNOWN"
+    for s in ["Physics", "Chemistry", "Mathematics", "Biology"]:
+        if s.lower() in text_lower:
+            subject = s
+            break
+
+    return {"questions": questions, "exam_type": exam_type, "subject": subject, "full_text": text}
+
+# ─── AI Analysis ─────────────────────────────────────────────────────
+def ai_analyze(questions, model_id, exam_type, subject):
+    api_key = os.environ.get("OPENROUTER_API_KEY", "")
+    if not api_key:
+        raise ValueError("OPENROUTER_API_KEY not set")
+
+    q_text = ""
+    for q in questions[:50]:
+        q_text += f"Q{q['number']}: {q['text'][:500]}\n"
+
+    prompt = f"""You are an expert {exam_type} exam analyst for {subject}.
+Analyze each question below and return a JSON array. For each question return:
+- sno (question number)
+- question_text (first 200 chars)
+- subject ("{subject}")
+- topic (main chapter/topic)
+- subtopic_name (specific subtopic)
+- concept_tested (what concept is being tested)
+- difficulty ("Easy", "Moderate", or "Hard")
+- has_diagram (true/false - guess from question text)
+- diagram_description (if diagram likely, describe what it might show)
+
+Questions:
+{q_text}
+
+Return ONLY a valid JSON array, nothing else. No markdown, no explanation."""
 
     headers = {
-        "Authorization": "Bearer " + os.environ.get("OPENROUTER_API_KEY", ""),
+        "Authorization": "Bearer " + api_key,
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://exam-analyzer.local",
+        "HTTP-Referer": "https://exam-analyzer.onrender.com",
     }
 
     payload = {
         "model": model_id,
-        "messages": messages,
+        "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.1,
-        "max_tokens": 8000,
+        "max_tokens": 4000,
     }
 
-    try:
-        logger.info(f"Calling OpenRouter with model: {model_id} (attempt {retry + 1})")
-        start = time.time()
+    for attempt in range(3):
+        try:
+            resp = http_requests.post(OPENROUTER_URL, headers=headers, json=payload, timeout=90)
+            resp.raise_for_status()
+            data = resp.json()
+            content = data["choices"][0]["message"]["content"]
 
-        response = requests.post(
-            "https://openrouter.ai/api/v1/chat/completions",
-            headers=headers,
-            json=payload,
-            timeout=120,
-        )
-        elapsed = time.time() - start
-        logger.info(f"OpenRouter responded in {elapsed:.1f}s — status {response.status_code}")
+            # Clean markdown fences
+            content = content.strip()
+            if content.startswith("```"):
+                content = re.sub(r'^```(?:json)?\s*', '', content)
+                content = re.sub(r'\s*```$', '', content)
 
-        if response.status_code != 200:
-            error = response.text
-            logger.error(f"OpenRouter error: {error}")
-            if retry < 2:
-                time.sleep(2)
-                return call_openrouter(model_id, messages, retry + 1)
-            raise RuntimeError(f"OpenRouter API error: {response.status_code} — {error}")
+            result = json.loads(content)
+            if isinstance(result, list):
+                return {"questions": result}
+            elif isinstance(result, dict) and "questions" in result:
+                return result
+            else:
+                return {"questions": [result]}
 
-        data = response.json()
-        content = data["choices"][0]["message"]["content"]
+        except Exception as e:
+            logger.error(f"AI attempt {attempt+1} failed: {e}")
+            if attempt == 2:
+                raise ValueError(f"AI analysis failed after 3 attempts: {e}")
+            time.sleep(2)
 
-        return {"content": content, "elapsed": elapsed, "model": model_id}
+# ─── DOCX Generation ─────────────────────────────────────────────────
+def generate_docx(questions, metadata, output_path):
+    doc = Document()
+    style = doc.styles["Normal"]
+    style.font.size = Pt(9)
+    style.font.name = "Calibri"
 
-    except requests.exceptions.Timeout:
-        logger.warning(f"Timeout calling {model_id}")
-        if retry < 2:
-            return call_openrouter(model_id, messages, retry + 1)
-        raise
+    doc.add_heading(f"{metadata.get('paper_name', 'Exam')} — Analysis Report", level=1)
+    doc.add_paragraph(f"Exam: {metadata.get('exam_type', 'N/A')} | Subject: {metadata.get('subject', 'N/A')} | "
+                      f"Model: {metadata.get('model_used', 'N/A')} | Questions: {len(questions)}")
 
+    headers = ["#", "Question", "Topic", "Subtopic", "Sub#", "Concept", "Diff"]
+    table = doc.add_table(rows=1, cols=len(headers))
+    table.style = "Table Grid"
+    table.alignment = WD_TABLE_ALIGNMENT.CENTER
 
-def parse_ai_response(raw_content: str) -> dict:
-    """Parse the AI's JSON response, handling common formatting issues."""
-    content = raw_content.strip()
-
-    # Strip markdown code fences if present
-    if content.startswith("```"):
-        content = content.split("\n", 1)[-1]
-    if content.endswith("```"):
-        content = content.rsplit("```", 1)[0]
-    content = content.strip()
-    if content.startswith("json"):
-        content = content[4:].strip()
-
-    try:
-        parsed = json.loads(content)
-    except json.JSONDecodeError as e:
-        logger.error(f"JSON parse error: {e}")
-        logger.error(f"Raw content (first 500 chars): {content[:500]}")
-        # Try to extract JSON object from the response
-        start = content.find("{")
-        end = content.rfind("}") + 1
-        if start >= 0 and end > start:
-            try:
-                parsed = json.loads(content[start:end])
-            except json.JSONDecodeError:
-                raise ValueError(f"Could not parse AI response as JSON: {e}")
-        else:
-            raise ValueError(f"No JSON object found in AI response: {e}")
-
-    # Validate structure
-    if "questions" not in parsed:
-        raise ValueError("AI response missing 'questions' key")
-
-    for q in parsed["questions"]:
-        required = ["sno", "question_text", "subject", "topic", "subtopic_name", "difficulty"]
-        missing = [k for k in required if k not in q]
-        if missing:
-            logger.warning(f"Question {q.get('sno', '?')} missing fields: {missing}")
-            for k in missing:
-                q[k] = "Unknown" if k != "sno" else 0
-
-        # Normalize difficulty
-        diff = q.get("difficulty", "").strip().capitalize()
-        if diff not in ("Easy", "Moderate", "Difficult"):
-            q["difficulty"] = "Moderate"
-        else:
-            q["difficulty"] = diff
-
-    return parsed
-
-
-def chunk_text_for_token_limit(questions: list, max_chars: int = 15000) -> list:
-    """
-    Split questions into chunks that fit within token limits.
-    Returns list of chunks, each is a list of questions.
-    """
-    chunks = []
-    current_chunk = []
-    current_size = 0
+    hdr = table.rows[0]
+    for i, h in enumerate(headers):
+        cell = hdr.cells[i]
+        cell.text = h
+        for p in cell.paragraphs:
+            for r in p.runs:
+                r.font.bold = True
+                r.font.size = Pt(8)
 
     for q in questions:
-        q_size = len(q["text"]) + len(q["label"]) + 50
-        if current_size + q_size > max_chars and current_chunk:
-            chunks.append(current_chunk)
-            current_chunk = []
-            current_size = 0
-        current_chunk.append(q)
-        current_size += q_size
+        row = table.add_row()
+        vals = [
+            str(q.get("sno", "")),
+            (q.get("question_text", "") or "")[:120],
+            q.get("topic", ""),
+            q.get("subtopic_name", ""),
+            q.get("subtopic_number", "N/A"),
+            q.get("concept_tested", ""),
+            q.get("difficulty", ""),
+        ]
+        for i, v in enumerate(vals):
+            row.cells[i].text = str(v)
+            for p in row.cells[i].paragraphs:
+                for r in p.runs:
+                    r.font.size = Pt(7)
 
-    if current_chunk:
-        chunks.append(current_chunk)
+    doc.save(output_path)
 
-    return chunks
+# ─── XLSX Generation ─────────────────────────────────────────────────
+def generate_xlsx(questions, metadata, output_path):
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Analysis"
 
+    headers = ["#", "Question", "Subject", "Topic", "Subtopic", "Sub#", "Concept", "Difficulty", "Diagram"]
+    header_fill = PatternFill(start_color="1F4E79", end_color="1F4E79", fill_type="solid")
+    header_font = Font(color="FFFFFF", bold=True, size=10)
 
-def format_questions_for_prompt(questions: list) -> str:
-    """Format extracted questions into a clean text block for the AI prompt."""
-    lines = []
-    for q in questions:
-        lines.append(f"Q.{q['number']}: {q['text']}")
-        if q.get("has_diagram"):
-            lines.append(f"  [This question contains a diagram/figure]")
-        lines.append("")
-    return "\n".join(lines)
+    for col, h in enumerate(headers, 1):
+        cell = ws.cell(row=1, column=col, value=h)
+        cell.fill = header_fill
+        cell.font = header_font
 
+    for row_idx, q in enumerate(questions, 2):
+        ws.cell(row=row_idx, column=1, value=q.get("sno", ""))
+        ws.cell(row=row_idx, column=2, value=(q.get("question_text", "") or "")[:200])
+        ws.cell(row=row_idx, column=3, value=q.get("subject", ""))
+        ws.cell(row=row_idx, column=4, value=q.get("topic", ""))
+        ws.cell(row=row_idx, column=5, value=q.get("subtopic_name", ""))
+        ws.cell(row=row_idx, column=6, value=q.get("subtopic_number", "N/A"))
+        ws.cell(row=row_idx, column=7, value=q.get("concept_tested", ""))
+        ws.cell(row=row_idx, column=8, value=q.get("difficulty", ""))
+        ws.cell(row=row_idx, column=9, value="Yes" if q.get("has_diagram") else "No")
 
-def analyze(questions: list, model_id: str, exam_type: str = None, subject: str = None) -> dict:
-    """
-    Main entry point: analyze a list of questions with the selected AI model.
-    Handles chunking for large papers.
-    Returns combined classification results.
-    """
-    chunks = chunk_text_for_token_limit(questions)
-    logger.info(f"Split {len(questions)} questions into {len(chunks)} chunk(s)")
+    ws.column_dimensions["B"].width = 50
+    ws.column_dimensions["D"].width = 20
+    ws.column_dimensions["E"].width = 25
+    ws.column_dimensions["G"].width = 30
+    wb.save(output_path)
 
-    all_results = []
-    total_time = 0
-    detected_exam = exam_type
+# ─── Routes ──────────────────────────────────────────────────────────
+@application.route("/health", methods=["GET"])
+def health():
+    return jsonify({"status": "ok", "timestamp": datetime.now().isoformat()})
 
-    for i, chunk in enumerate(chunks):
-        prompt_text = format_questions_for_prompt(chunk)
-        messages = build_messages(prompt_text, exam_type, subject)
+@application.route("/models", methods=["GET"])
+def get_models():
+    models = [
+        {"model_id": "google/gemini-2.5-flash", "display_name": "Gemini 2.5 Flash", "provider": "Google", "supports_vision": True},
+        {"model_id": "google/gemini-2.5-pro", "display_name": "Gemini 2.5 Pro", "provider": "Google", "supports_vision": True},
+        {"model_id": "anthropic/claude-sonnet-4", "display_name": "Claude Sonnet 4", "provider": "Anthropic", "supports_vision": True},
+        {"model_id": "openai/gpt-4o", "display_name": "GPT-4o", "provider": "OpenAI", "supports_vision": True},
+        {"model_id": "openai/o3-mini", "display_name": "o3-mini", "provider": "OpenAI", "supports_vision": False},
+        {"model_id": "deepseek/deepseek-r1", "display_name": "DeepSeek R1", "provider": "DeepSeek", "supports_vision": False},
+    ]
+    return jsonify({"models": models})
 
-        response = call_openrouter(model_id, messages)
-        total_time += response["elapsed"]
+@application.route("/analyze", methods=["POST"])
+def analyze():
+    pdf_file = request.files.get("pdf_file")
+    model_id = request.form.get("model_id", "google/gemini-2.5-flash")
+    forced_exam = request.form.get("exam_type", "")
+    forced_subject = request.form.get("subject", "")
+    upload_id = request.form.get("upload_id", "")
 
-        parsed = parse_ai_response(response["content"])
+    if not pdf_file:
+        return jsonify({"status": "failed", "error": "No PDF file uploaded"}), 400
 
-        if not detected_exam or detected_exam == "UNKNOWN":
-            detected_exam = parsed.get("exam_type", "UNKNOWN")
+    start_time = time.time()
+    job_id = str(uuid.uuid4())[:8]
+    job_dir = os.path.join(TEMP_DIR, job_id)
+    os.makedirs(job_dir, exist_ok=True)
 
-        all_results.extend(parsed["questions"])
+    pdf_path = os.path.join(job_dir, pdf_file.filename)
+    pdf_file.save(pdf_path)
 
-    return {
-        "exam_type": detected_exam,
-        "questions": all_results,
-        "model_used": model_id,
-        "processing_time": total_time,
-        "chunks_processed": len(chunks),
-    }
+    try:
+        # Step 1: Extract
+        logger.info(f"[{job_id}] Extracting PDF")
+        extraction = extract_pdf(pdf_path, job_dir)
+        questions = extraction["questions"]
+        exam_type = forced_exam or extraction["exam_type"]
+        subject = forced_subject or extraction["subject"]
+
+        if not questions:
+            raise ValueError("No questions detected in PDF")
+
+        logger.info(f"[{job_id}] Found {len(questions)} questions, exam={exam_type}, subject={subject}")
+
+        # Step 2: AI Analysis
+        logger.info(f"[{job_id}] AI Analysis with {model_id}")
+        ai_result = ai_analyze(questions, model_id, exam_type, subject)
+        ai_questions = ai_result["questions"]
+
+        # Step 3: Subtopic matching
+        for q in ai_questions:
+            subj = q.get("subject", subject)
+            result = match_subtopic(q.get("subtopic_name", ""), q.get("topic", ""), exam_type, subj)
+            q["subtopic_number"] = result["subtopic_number"]
+            q["match_confidence"] = result["confidence"]
+            q["matched_subtopic_name"] = result["matched_name"]
+            q["matched_unit_name"] = result["unit_name"]
+
+        # Step 4: Generate outputs
+        paper_name = os.path.splitext(pdf_file.filename)[0]
+        metadata = {"paper_name": paper_name, "exam_type": exam_type, "subject": subject, "model_used": model_id}
+
+        docx_filename = f"{paper_name}_{job_id}.docx"
+        xlsx_filename = f"{paper_name}_{job_id}.xlsx"
+        docx_path = os.path.join(OUTPUT_DIR, docx_filename)
+        xlsx_path = os.path.join(OUTPUT_DIR, xlsx_filename)
+
+        generate_docx(ai_questions, metadata, docx_path)
+        generate_xlsx(ai_questions, metadata, xlsx_path)
+
+        elapsed = time.time() - start_time
+        logger.info(f"[{job_id}] Done in {elapsed:.1f}s")
+
+        return jsonify({
+            "status": "completed", "job_id": job_id, "upload_id": upload_id,
+            "questions_count": len(ai_questions), "exam_type": exam_type, "subject": subject,
+            "model_used": model_id, "processing_time": round(elapsed, 1),
+            "docx_filename": docx_filename, "xlsx_filename": xlsx_filename,
+            "docx_url": f"/download/{docx_filename}", "xlsx_url": f"/download/{xlsx_filename}",
+            "questions": ai_questions,
+        })
+
+    except Exception as e:
+        elapsed = time.time() - start_time
+        logger.error(f"[{job_id}] Failed: {e}\n{traceback.format_exc()}")
+        return jsonify({"status": "failed", "error": str(e), "processing_time": round(elapsed, 1)}), 500
+
+@application.route("/download/<filename>", methods=["GET"])
+def download(filename):
+    filepath = os.path.join(OUTPUT_DIR, filename)
+    if not os.path.exists(filepath):
+        return jsonify({"error": "File not found"}), 404
+    return send_file(filepath, as_attachment=True)
+
+# ─── Entry Point ─────────────────────────────────────────────────────
+app = application
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5050))
+    application.run(host="0.0.0.0", port=port, debug=False)
