@@ -1,121 +1,121 @@
 """
-Reference Parser — generates JSON files from reference PDFs.
-Run locally: python parse_references.py /path/to/pdf/folder
-Produces JSON files in reference_data/ folder.
+PDF Extractor — Vision-based approach
+Converts PDF pages to images for AI vision models.
+Also extracts basic text for metadata detection (exam type, subject).
 """
-import re
 import os
-import sys
-import json
+import base64
+import logging
 
-try:
-    import pdfplumber
-except ImportError:
-    print("Install pdfplumber: pip install pdfplumber")
-    sys.exit(1)
+import fitz  # PyMuPDF
 
-FILE_MAP = {
-    "Sub-Topic-Physics-JEE":    {"exam": "JEE",  "subject": "Physics"},
-    "Sub-topic-Physics-NEET":   {"exam": "NEET", "subject": "Physics"},
-    "Subtopic-Maths-JEE":      {"exam": "JEE",  "subject": "Mathematics"},
-    "Subtopic-Chemistry-JEE":  {"exam": "JEE",  "subject": "Chemistry"},
-    "Subtopic-Chemistry-NEET": {"exam": "NEET", "subject": "Chemistry"},
-    "Subtopic-Bio-NEET":       {"exam": "NEET", "subject": "Biology"},
-}
+logger = logging.getLogger(__name__)
 
-OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "reference_data")
+# Image settings
+PAGE_DPI = 200  # Good balance of quality vs size for math formulas
+MAX_PAGES = 30  # Safety limit
 
 
-def identify_file(filename):
-    base = os.path.splitext(os.path.basename(filename))[0]
-    for key, meta in FILE_MAP.items():
-        if key.lower() in base.lower():
-            return meta
-    return None
+def pdf_pages_to_images(pdf_path: str, dpi: int = PAGE_DPI) -> list:
+    """
+    Convert each PDF page to a PNG image, return as base64 strings.
+    """
+    doc = fitz.open(pdf_path)
+    page_images = []
+
+    page_count = min(len(doc), MAX_PAGES)
+    if len(doc) > MAX_PAGES:
+        logger.warning(f"PDF has {len(doc)} pages, processing first {MAX_PAGES} only")
+
+    for i in range(page_count):
+        page = doc[i]
+        # Render page to image at specified DPI
+        zoom = dpi / 72  # 72 is default PDF DPI
+        matrix = fitz.Matrix(zoom, zoom)
+        pix = page.get_pixmap(matrix=matrix)
+        img_bytes = pix.tobytes("png")
+        b64 = base64.b64encode(img_bytes).decode("utf-8")
+        page_images.append(b64)
+        logger.info(f"Page {i+1}: rendered {pix.width}x{pix.height}px ({len(img_bytes)//1024}KB)")
+
+    doc.close()
+    return page_images
 
 
-def parse_pdf(pdf_path):
-    meta = identify_file(pdf_path)
-    if not meta:
-        print(f"  ⚠ Cannot identify: {pdf_path}")
-        return None, []
-
+def extract_text_for_metadata(pdf_path: str) -> str:
+    """
+    Extract raw text from PDF — used ONLY for detecting exam type and subject.
+    Not used for question analysis (vision handles that).
+    """
+    doc = fitz.open(pdf_path)
     text = ""
-    with pdfplumber.open(pdf_path) as pdf:
-        for page in pdf.pages:
-            t = page.extract_text(x_tolerance=2, y_tolerance=2)
-            if t:
-                text += t + "\n"
-
-    entries = []
-    current_unit_num = ""
-    current_unit_name = ""
-
-    for line in text.split("\n"):
-        line = line.strip()
-        if not line:
-            continue
-
-        unit_match = re.match(r'(?:Unit\s+)?(\d+)\s*[\.::\-]\s*(.+)', line, re.IGNORECASE)
-        if unit_match and "." not in unit_match.group(1):
-            cand_num = unit_match.group(1)
-            cand_name = unit_match.group(2).strip()
-            if len(cand_name) > 3 and not re.match(r'^\d', cand_name):
-                current_unit_num = cand_num
-                current_unit_name = cand_name
-                continue
-
-        sub_match = re.match(r'(\d+\.\d+)\.?\s+(.+)', line)
-        if sub_match:
-            sub_num = sub_match.group(1)
-            sub_name = sub_match.group(2).strip()
-            inferred_unit = sub_num.split(".")[0]
-            if not current_unit_num or current_unit_num != inferred_unit:
-                current_unit_num = inferred_unit
-            entries.append({
-                "unit_number": current_unit_num,
-                "unit_name": current_unit_name or f"Unit {current_unit_num}",
-                "subtopic_number": sub_num,
-                "subtopic_name": sub_name,
-            })
-
-    return meta, entries
+    # Only need first 3 pages for metadata detection
+    for i in range(min(3, len(doc))):
+        text += doc[i].get_text() + "\n"
+    doc.close()
+    return text
 
 
-def main():
-    if len(sys.argv) < 2:
-        print("Usage: python parse_references.py <pdf_folder_or_file>")
-        print("Generates JSON files in reference_data/ folder")
-        sys.exit(1)
+def detect_exam_type(text: str) -> str:
+    """Detect JEE or NEET from paper content."""
+    text_lower = text.lower()
 
-    path = sys.argv[1]
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    jee_signals = ["jee main", "jee advanced", "jee mains", "iit jee", "jee (main)"]
+    neet_signals = ["neet", "neet-ug", "neet ug", "national eligibility"]
 
-    files = []
-    if os.path.isdir(path):
-        files = [os.path.join(path, f) for f in os.listdir(path) if f.lower().endswith(".pdf")]
-    else:
-        files = [path]
+    jee_score = sum(1 for s in jee_signals if s in text_lower)
+    neet_score = sum(1 for s in neet_signals if s in text_lower)
 
-    print(f"Processing {len(files)} file(s)...\n")
+    if jee_score > neet_score:
+        return "JEE"
+    elif neet_score > jee_score:
+        return "NEET"
 
-    for fpath in files:
-        print(f"📄 {os.path.basename(fpath)}")
-        meta, entries = parse_pdf(fpath)
-        if not meta:
-            continue
+    # Fallback: biology = NEET
+    if "biology" in text_lower or "botany" in text_lower or "zoology" in text_lower:
+        return "NEET"
 
-        outfile = f"{meta['exam']}_{meta['subject']}.json"
-        outpath = os.path.join(OUTPUT_DIR, outfile)
-
-        with open(outpath, "w", encoding="utf-8") as f:
-            json.dump(entries, f, ensure_ascii=False, indent=2)
-
-        print(f"   ✅ {len(entries)} subtopics → {outfile}\n")
-
-    print("Done! JSON files saved to reference_data/")
-    print("Commit and push to redeploy on Render.")
+    return "UNKNOWN"
 
 
-if __name__ == "__main__":
-    main()
+def detect_subject(text: str) -> str:
+    """Detect subject from paper header text."""
+    text_lower = text.lower()
+
+    if any(w in text_lower for w in ["mathematics", "maths", "math", "sr-mathematics"]):
+        return "Mathematics"
+    if any(w in text_lower for w in ["physics", "sr-physics"]):
+        return "Physics"
+    if any(w in text_lower for w in ["chemistry", "sr-chemistry"]):
+        return "Chemistry"
+    if any(w in text_lower for w in ["biology", "botany", "zoology", "sr-biology"]):
+        return "Biology"
+
+    return "UNKNOWN"
+
+
+def process_pdf(pdf_path: str, temp_dir: str) -> dict:
+    """
+    Main entry point.
+    Converts PDF to page images + detects metadata.
+    Returns everything needed for AI vision analysis.
+    """
+    logger.info(f"Processing PDF: {pdf_path}")
+
+    # 1. Convert pages to images for AI vision
+    page_images = pdf_pages_to_images(pdf_path)
+    logger.info(f"Converted {len(page_images)} pages to images")
+
+    # 2. Extract text only for metadata detection
+    metadata_text = extract_text_for_metadata(pdf_path)
+    exam_type = detect_exam_type(metadata_text)
+    subject = detect_subject(metadata_text)
+    logger.info(f"Detected exam={exam_type}, subject={subject}")
+
+    return {
+        "pdf_path": pdf_path,
+        "page_count": len(page_images),
+        "page_images": page_images,
+        "exam_type": exam_type,
+        "subject": subject,
+    }
