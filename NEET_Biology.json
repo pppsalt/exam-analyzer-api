@@ -1,1 +1,2390 @@
-[]
+[
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.1",
+    "subtopic_name": "What is living?"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.2",
+    "subtopic_name": "Biodiversity"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.3",
+    "subtopic_name": "Need for classification"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.4",
+    "subtopic_name": "Taxonomy"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.5",
+    "subtopic_name": "Systematics"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.6",
+    "subtopic_name": "Concept of species"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.7",
+    "subtopic_name": "Taxonomical hierarchy"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.8",
+    "subtopic_name": "Binomial nomenclature"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.9",
+    "subtopic_name": "Five kingdom classification"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.10",
+    "subtopic_name": "Salient features of Monera"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.11",
+    "subtopic_name": "Classification of Monera into major groups"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.12",
+    "subtopic_name": "Salient features of Protista"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.13",
+    "subtopic_name": "Classification of Protista into major groups"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.14",
+    "subtopic_name": "Salient features of Fungi"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.15",
+    "subtopic_name": "Classification of Fungi into major groups"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.16",
+    "subtopic_name": "Lichens"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.17",
+    "subtopic_name": "Viruses"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.18",
+    "subtopic_name": "Viroids"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.19",
+    "subtopic_name": "Salient features of plants: Algae"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.20",
+    "subtopic_name": "Classification of plants into major groups: Algae"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.21",
+    "subtopic_name": "Salient features of plants: Bryophytes"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.22",
+    "subtopic_name": "Classification of plants into major groups: Bryophytes"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.23",
+    "subtopic_name": "Salient features of plants: Pteridophytes"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.24",
+    "subtopic_name": "Classification of plants into major groups: Pteridophytes"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.25",
+    "subtopic_name": "Salient features of plants: Gymnosperms"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.26",
+    "subtopic_name": "Classification of plants into major groups: Gymnosperms"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.27",
+    "subtopic_name": "Salient features of animals: Non-chordates up to phyla level"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.28",
+    "subtopic_name": "Classification of animals: Non-chordates up to phyla level"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.29",
+    "subtopic_name": "Salient features of animals: Chordates up to classes level"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Diversity in Living World",
+    "subtopic_number": "1.30",
+    "subtopic_name": "Classification of animals: Chordates up to classes level"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.1",
+    "subtopic_name": "Morphology of flowering plants"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.2",
+    "subtopic_name": "Modifications of flowering plants"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.3",
+    "subtopic_name": "Tissues in flowering plants"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.4",
+    "subtopic_name": "Anatomy of root"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.5",
+    "subtopic_name": "Functions of root"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.6",
+    "subtopic_name": "Anatomy of stem"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.7",
+    "subtopic_name": "Functions of stem"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.8",
+    "subtopic_name": "Anatomy of leaf"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.9",
+    "subtopic_name": "Functions of leaf"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.10",
+    "subtopic_name": "Anatomy of inflorescence: Cymose"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.11",
+    "subtopic_name": "Anatomy of inflorescence: Racemose"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.12",
+    "subtopic_name": "Functions of inflorescence"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.13",
+    "subtopic_name": "Anatomy of flower"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.14",
+    "subtopic_name": "Functions of flower"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.15",
+    "subtopic_name": "Anatomy of fruit"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.16",
+    "subtopic_name": "Functions of fruit"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.17",
+    "subtopic_name": "Anatomy of seed"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.18",
+    "subtopic_name": "Functions of seed"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.19",
+    "subtopic_name": "Family: Malvaceae"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.20",
+    "subtopic_name": "Family: Cruciferae"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.21",
+    "subtopic_name": "Family: Leguminosae"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.22",
+    "subtopic_name": "Family: Compositae"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.23",
+    "subtopic_name": "Family: Graminae"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.24",
+    "subtopic_name": "Animal tissues"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.25",
+    "subtopic_name": "Morphology of an insect (Frog)"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.26",
+    "subtopic_name": "Anatomy of digestive system of an insect (Frog)"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.27",
+    "subtopic_name": "Functions of digestive system of an insect (Frog)"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.28",
+    "subtopic_name": "Anatomy of circulatory system of an insect (Frog)"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.29",
+    "subtopic_name": "Functions of circulatory system of an insect (Frog)"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.30",
+    "subtopic_name": "Anatomy of respiratory system of an insect (Frog)"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.31",
+    "subtopic_name": "Functions of respiratory system of an insect (Frog)"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.32",
+    "subtopic_name": "Anatomy of nervous system of an insect (Frog)"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.33",
+    "subtopic_name": "Functions of nervous system of an insect (Frog)"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.34",
+    "subtopic_name": "Anatomy of reproductive system of an insect (Frog)"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Structural Organisation in Animals and Plants",
+    "subtopic_number": "2.35",
+    "subtopic_name": "Functions of reproductive system of an insect (Frog)"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.1",
+    "subtopic_name": "Cell theory"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.2",
+    "subtopic_name": "Cell as the basic unit of life"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.3",
+    "subtopic_name": "Structure of prokaryotic cell"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.4",
+    "subtopic_name": "Structure of eukaryotic cell"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.5",
+    "subtopic_name": "Plant cell"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.6",
+    "subtopic_name": "Animal cell"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.7",
+    "subtopic_name": "Cell envelope"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.8",
+    "subtopic_name": "Cell membrane"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.9",
+    "subtopic_name": "Cell wall"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.10",
+    "subtopic_name": "Cell organelles: Structure"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.11",
+    "subtopic_name": "Cell organelles: Function"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.12",
+    "subtopic_name": "Endomembrane system: Endoplasmic reticulum"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.13",
+    "subtopic_name": "Endomembrane system: Golgi bodies"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.14",
+    "subtopic_name": "Endomembrane system: Lysosomes"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.15",
+    "subtopic_name": "Endomembrane system: Vacuoles"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.16",
+    "subtopic_name": "Mitochondria"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.17",
+    "subtopic_name": "Ribosomes"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.18",
+    "subtopic_name": "Plastids"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.19",
+    "subtopic_name": "Micro bodies"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.20",
+    "subtopic_name": "Cytoskeleton"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.21",
+    "subtopic_name": "Cilia: Ultra structure"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.22",
+    "subtopic_name": "Cilia: Function"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.23",
+    "subtopic_name": "Flagella: Ultra structure"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.24",
+    "subtopic_name": "Flagella: Function"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.25",
+    "subtopic_name": "Centrioles: Ultra structure"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.26",
+    "subtopic_name": "Centrioles: Function"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.27",
+    "subtopic_name": "Nucleus: Nuclear membrane"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.28",
+    "subtopic_name": "Nucleus: Chromatin"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.29",
+    "subtopic_name": "Nucleus: Nucleolus"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.30",
+    "subtopic_name": "Chemical constituents of living cells: Biomolecules"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.31",
+    "subtopic_name": "Structure of proteins"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.32",
+    "subtopic_name": "Function of proteins"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.33",
+    "subtopic_name": "Structure of carbohydrates"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.34",
+    "subtopic_name": "Function of carbohydrates"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.35",
+    "subtopic_name": "Structure of lipids"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.36",
+    "subtopic_name": "Function of lipids"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.37",
+    "subtopic_name": "Structure of nucleic acids"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.38",
+    "subtopic_name": "Function of nucleic acids"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.39",
+    "subtopic_name": "Enzymes: Types"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.40",
+    "subtopic_name": "Enzymes: Properties"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.41",
+    "subtopic_name": "Enzymes: Enzyme action"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.42",
+    "subtopic_name": "Enzymes: Classification"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.43",
+    "subtopic_name": "Enzymes: Nomenclature"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.44",
+    "subtopic_name": "Cell division: Cell cycle"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.45",
+    "subtopic_name": "Cell division: Mitosis"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.46",
+    "subtopic_name": "Cell division: Meiosis"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Cell Structure and Function",
+    "subtopic_number": "3.47",
+    "subtopic_name": "Significance of cell division"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.1",
+    "subtopic_name": "Photosynthesis: As a means of autotrophic nutrition"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.2",
+    "subtopic_name": "Site where photosynthesis takes place"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.3",
+    "subtopic_name": "Pigments involved in photosynthesis (elementary idea)"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.4",
+    "subtopic_name": "Photochemical phase of photosynthesis"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.5",
+    "subtopic_name": "Biosynthetic phase of photosynthesis"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.6",
+    "subtopic_name": "Cyclic photophosphorylation"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.7",
+    "subtopic_name": "Non-cyclic photophosphorylation"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.8",
+    "subtopic_name": "Chemiosmotic hypothesis"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.9",
+    "subtopic_name": "Photorespiration"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.10",
+    "subtopic_name": "C3 pathway"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.11",
+    "subtopic_name": "C4 pathway"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.12",
+    "subtopic_name": "Factors affecting photosynthesis"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.13",
+    "subtopic_name": "Respiration: Exchange of gases"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.14",
+    "subtopic_name": "Cellular respiration: Glycolysis"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.15",
+    "subtopic_name": "Cellular respiration: Fermentation (anaerobic)"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.16",
+    "subtopic_name": "Cellular respiration: TCA cycle (aerobic)"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.17",
+    "subtopic_name": "Cellular respiration: Electron transport system (aerobic)"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.18",
+    "subtopic_name": "Energy relations: Number of ATP molecules generated"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.19",
+    "subtopic_name": "Amphibolic pathways"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.20",
+    "subtopic_name": "Respiratory quotient"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.21",
+    "subtopic_name": "Plant growth and development: Seed germination"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.22",
+    "subtopic_name": "Phases of plant growth"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.23",
+    "subtopic_name": "Plant growth rate"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.24",
+    "subtopic_name": "Conditions of growth"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.25",
+    "subtopic_name": "Differentiation"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.26",
+    "subtopic_name": "Dedifferentiation"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.27",
+    "subtopic_name": "Redifferentiation"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.28",
+    "subtopic_name": "Sequence of developmental process in a plant cell"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.29",
+    "subtopic_name": "Growth regulators: Auxin"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.30",
+    "subtopic_name": "Growth regulators: Gibberellin"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.31",
+    "subtopic_name": "Growth regulators: Cytokinin"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.32",
+    "subtopic_name": "Growth regulators: Ethylene"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Plant Physiology",
+    "subtopic_number": "4.33",
+    "subtopic_name": "Growth regulators: ABA"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.1",
+    "subtopic_name": "Breathing and Respiration: Respiratory organs in animals (recall only)"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.2",
+    "subtopic_name": "Respiratory system in humans"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.3",
+    "subtopic_name": "Mechanism of breathing in humans"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.4",
+    "subtopic_name": "Regulation of breathing in humans"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.5",
+    "subtopic_name": "Exchange of gases in humans"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.6",
+    "subtopic_name": "Transport of gases in humans"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.7",
+    "subtopic_name": "Regulation of respiration in humans"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.8",
+    "subtopic_name": "Respiratory volumes"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.9",
+    "subtopic_name": "Disorders related to respiration: Asthma"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.10",
+    "subtopic_name": "Disorders related to respiration: Emphysema"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.11",
+    "subtopic_name": "Disorders related to respiration: Occupational respiratory disorders"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.12",
+    "subtopic_name": "Body fluids and circulation: Composition of blood"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.13",
+    "subtopic_name": "Body fluids and circulation: Blood groups"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.14",
+    "subtopic_name": "Body fluids and circulation: Coagulation of blood"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.15",
+    "subtopic_name": "Composition of lymph"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.16",
+    "subtopic_name": "Function of lymph"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.17",
+    "subtopic_name": "Human circulatory system: Structure of human heart"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.18",
+    "subtopic_name": "Human circulatory system: Structure of blood vessels"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.19",
+    "subtopic_name": "Cardiac cycle"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.20",
+    "subtopic_name": "Cardiac output"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.21",
+    "subtopic_name": "ECG"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.22",
+    "subtopic_name": "Double circulation"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.23",
+    "subtopic_name": "Regulation of cardiac activity"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.24",
+    "subtopic_name": "Disorders of circulatory system: Hypertension"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.25",
+    "subtopic_name": "Disorders of circulatory system: Coronary artery disease"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.26",
+    "subtopic_name": "Disorders of circulatory system: Angina pectoris"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.27",
+    "subtopic_name": "Disorders of circulatory system: Heart failure"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.28",
+    "subtopic_name": "Excretory products and their elimination: Modes of excretion: Ammonotelism"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.29",
+    "subtopic_name": "Modes of excretion: Ureotelism"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.30",
+    "subtopic_name": "Modes of excretion: Uricotelism"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.31",
+    "subtopic_name": "Human excretory system: Structure"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.32",
+    "subtopic_name": "Human excretory system: Function"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.33",
+    "subtopic_name": "Urine formation"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.34",
+    "subtopic_name": "Osmoregulation"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.35",
+    "subtopic_name": "Regulation of kidney function: Renin-angiotensin"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.36",
+    "subtopic_name": "Regulation of kidney function: Atrial Natriuretic Factor"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.37",
+    "subtopic_name": "Regulation of kidney function: ADH"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.38",
+    "subtopic_name": "Regulation of kidney function: Diabetes insipidus"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.39",
+    "subtopic_name": "Role of other organs in excretion"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.40",
+    "subtopic_name": "Disorders of excretory system: Uraemia"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.41",
+    "subtopic_name": "Disorders of excretory system: Renal failure"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.42",
+    "subtopic_name": "Disorders of excretory system: Renal calculi"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.43",
+    "subtopic_name": "Disorders of excretory system: Nephritis"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.44",
+    "subtopic_name": "Dialysis"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.45",
+    "subtopic_name": "Artificial kidney"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.46",
+    "subtopic_name": "Locomotion and Movement: Types of movement: Ciliary"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.47",
+    "subtopic_name": "Types of movement: Flagellar"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.48",
+    "subtopic_name": "Types of movement: Muscular"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.49",
+    "subtopic_name": "Skeletal muscle: Contractile proteins"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.50",
+    "subtopic_name": "Skeletal muscle: Muscle contraction"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.51",
+    "subtopic_name": "Skeletal system"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.52",
+    "subtopic_name": "Functions of skeletal system"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.53",
+    "subtopic_name": "Joints"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.54",
+    "subtopic_name": "Disorders of muscular and skeletal system: Myasthenia gravis"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.55",
+    "subtopic_name": "Disorders of muscular and skeletal system: Tetany"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.56",
+    "subtopic_name": "Disorders of muscular and skeletal system: Muscular dystrophy"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.57",
+    "subtopic_name": "Disorders of muscular and skeletal system: Arthritis"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.58",
+    "subtopic_name": "Disorders of muscular and skeletal system: Osteoporosis"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.59",
+    "subtopic_name": "Disorders of muscular and skeletal system: Gout"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.60",
+    "subtopic_name": "Neural control and coordination: Neuron"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.61",
+    "subtopic_name": "Neural control and coordination: Nerves"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.62",
+    "subtopic_name": "Nervous system in humans: Central nervous system"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.63",
+    "subtopic_name": "Nervous system in humans: Peripheral nervous system"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.64",
+    "subtopic_name": "Nervous system in humans: Visceral nervous system"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.65",
+    "subtopic_name": "Generation of nerve impulse"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.66",
+    "subtopic_name": "Conduction of nerve impulse"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.67",
+    "subtopic_name": "Chemical coordination and regulation: Endocrine glands"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.68",
+    "subtopic_name": "Chemical coordination and regulation: Hormones"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.69",
+    "subtopic_name": "Human endocrine system: Hypothalamus"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.70",
+    "subtopic_name": "Human endocrine system: Pituitary"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.71",
+    "subtopic_name": "Human endocrine system: Pineal"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.72",
+    "subtopic_name": "Human endocrine system: Thyroid"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.73",
+    "subtopic_name": "Human endocrine system: Parathyroid"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.74",
+    "subtopic_name": "Human endocrine system: Adrenal"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.75",
+    "subtopic_name": "Human endocrine system: Pancreas"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.76",
+    "subtopic_name": "Human endocrine system: Gonads"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.77",
+    "subtopic_name": "Mechanism of hormone action (elementary idea)"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.78",
+    "subtopic_name": "Role of hormones as messengers"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.79",
+    "subtopic_name": "Role of hormones as regulators"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.80",
+    "subtopic_name": "Hypoactivity and related disorders"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.81",
+    "subtopic_name": "Hyperactivity and related disorders"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.82",
+    "subtopic_name": "Common disorders: Dwarfism"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.83",
+    "subtopic_name": "Common disorders: Acromegaly"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.84",
+    "subtopic_name": "Common disorders: Cretinism"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.85",
+    "subtopic_name": "Common disorders: Goiter"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.86",
+    "subtopic_name": "Common disorders: Exophthalmic goiter"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.87",
+    "subtopic_name": "Common disorders: Diabetes"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Human Physiology",
+    "subtopic_number": "5.88",
+    "subtopic_name": "Common disorders: Addison's disease"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.1",
+    "subtopic_name": "Sexual reproduction in flowering plants: Flower structure"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.2",
+    "subtopic_name": "Development of male gametophytes"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.3",
+    "subtopic_name": "Development of female gametophytes"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.4",
+    "subtopic_name": "Pollination: Types"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.5",
+    "subtopic_name": "Pollination: Agencies"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.6",
+    "subtopic_name": "Pollination: Examples"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.7",
+    "subtopic_name": "Outbreeding devices"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.8",
+    "subtopic_name": "Pollen-Pistil interaction"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.9",
+    "subtopic_name": "Double fertilization"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.10",
+    "subtopic_name": "Post fertilization events: Development of endosperm"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.11",
+    "subtopic_name": "Post fertilization events: Development of embryo"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.12",
+    "subtopic_name": "Development of seed"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.13",
+    "subtopic_name": "Formation of fruit"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.14",
+    "subtopic_name": "Special modes: Apomixis"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.15",
+    "subtopic_name": "Special modes: Parthenocarpy"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.16",
+    "subtopic_name": "Special modes: Polyembryony"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.17",
+    "subtopic_name": "Significance of seed formation"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.18",
+    "subtopic_name": "Significance of fruit formation"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.19",
+    "subtopic_name": "Human Reproduction: Male reproductive system"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.20",
+    "subtopic_name": "Human Reproduction: Female reproductive system"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.21",
+    "subtopic_name": "Microscopic anatomy of testis"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.22",
+    "subtopic_name": "Microscopic anatomy of ovary"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.23",
+    "subtopic_name": "Gametogenesis: Spermatogenesis"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.24",
+    "subtopic_name": "Gametogenesis: Oogenesis"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.25",
+    "subtopic_name": "Menstrual cycle"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.26",
+    "subtopic_name": "Fertilisation"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.27",
+    "subtopic_name": "Embryo development up to blastocyst formation"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.28",
+    "subtopic_name": "Implantation"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.29",
+    "subtopic_name": "Pregnancy"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.30",
+    "subtopic_name": "Placenta formation (elementary idea)"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.31",
+    "subtopic_name": "Parturition (elementary idea)"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.32",
+    "subtopic_name": "Lactation (elementary idea)"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.33",
+    "subtopic_name": "Reproductive health: Need for reproductive health"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.34",
+    "subtopic_name": "Prevention of sexually transmitted diseases (STD)"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.35",
+    "subtopic_name": "Birth control: Need"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.36",
+    "subtopic_name": "Birth control: Methods"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.37",
+    "subtopic_name": "Contraception"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.38",
+    "subtopic_name": "Medical Termination of Pregnancy (MTP)"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.39",
+    "subtopic_name": "Amniocentesis"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.40",
+    "subtopic_name": "Infertility"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.41",
+    "subtopic_name": "Assisted reproductive technologies: IVF"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.42",
+    "subtopic_name": "Assisted reproductive technologies: ZIFT"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Reproduction",
+    "subtopic_number": "6.43",
+    "subtopic_name": "Assisted reproductive technologies: GIFT"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.1",
+    "subtopic_name": "Heredity"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.2",
+    "subtopic_name": "Variation"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.3",
+    "subtopic_name": "Mendelian Inheritance"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.4",
+    "subtopic_name": "Deviations from Mendelism: Incomplete dominance"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.5",
+    "subtopic_name": "Deviations from Mendelism: Co-dominance"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.6",
+    "subtopic_name": "Deviations from Mendelism: Multiple alleles"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.7",
+    "subtopic_name": "Deviations from Mendelism: Inheritance of blood groups"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.8",
+    "subtopic_name": "Pleiotropy"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.9",
+    "subtopic_name": "Elementary idea of polygenic inheritance"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.10",
+    "subtopic_name": "Chromosome theory of inheritance"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.11",
+    "subtopic_name": "Chromosomes"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.12",
+    "subtopic_name": "Genes"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.13",
+    "subtopic_name": "Sex determination: In humans"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.14",
+    "subtopic_name": "Sex determination: In birds"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.15",
+    "subtopic_name": "Sex determination: In honey bee"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.16",
+    "subtopic_name": "Linkage"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.17",
+    "subtopic_name": "Crossing over"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.18",
+    "subtopic_name": "Sex linked inheritance: Haemophilia"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.19",
+    "subtopic_name": "Sex linked inheritance: Colour blindness"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.20",
+    "subtopic_name": "Mendelian disorders in humans: Thalassemia"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.21",
+    "subtopic_name": "Chromosomal disorders in humans"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.22",
+    "subtopic_name": "Chromosomal disorders: Down's syndrome"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.23",
+    "subtopic_name": "Chromosomal disorders: Turner's syndrome"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.24",
+    "subtopic_name": "Chromosomal disorders: Klinefelter's syndrome"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.25",
+    "subtopic_name": "Molecular basis of inheritance: Search for genetic material"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.26",
+    "subtopic_name": "DNA as genetic material"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.27",
+    "subtopic_name": "Structure of DNA"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.28",
+    "subtopic_name": "Structure of RNA"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.29",
+    "subtopic_name": "DNA packaging"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.30",
+    "subtopic_name": "DNA replication"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.31",
+    "subtopic_name": "Central dogma"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.32",
+    "subtopic_name": "Transcription"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.33",
+    "subtopic_name": "Genetic code"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.34",
+    "subtopic_name": "Translation"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.35",
+    "subtopic_name": "Gene expression and regulation: Lac Operon"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.36",
+    "subtopic_name": "Genome"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.37",
+    "subtopic_name": "Human genome project"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.38",
+    "subtopic_name": "DNA fingerprinting"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.39",
+    "subtopic_name": "Protein biosynthesis"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.40",
+    "subtopic_name": "Evolution: Origin of life"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.41",
+    "subtopic_name": "Biological evolution"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.42",
+    "subtopic_name": "Evidences for biological evolution: Paleontology"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.43",
+    "subtopic_name": "Evidences for biological evolution: Comparative anatomy"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.44",
+    "subtopic_name": "Evidences for biological evolution: Embryology"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.45",
+    "subtopic_name": "Evidences for biological evolution: Molecular evidence"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.46",
+    "subtopic_name": "Darwin's contribution"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.47",
+    "subtopic_name": "Modern Synthetic theory of Evolution"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.48",
+    "subtopic_name": "Mechanism of evolution: Variation (Mutation)"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.49",
+    "subtopic_name": "Mechanism of evolution: Variation (Recombination)"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.50",
+    "subtopic_name": "Mechanism of evolution: Natural Selection"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.51",
+    "subtopic_name": "Examples of natural selection"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.52",
+    "subtopic_name": "Types of natural selection"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.53",
+    "subtopic_name": "Gene flow"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.54",
+    "subtopic_name": "Genetic drift"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.55",
+    "subtopic_name": "Hardy-Weinberg's principle"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.56",
+    "subtopic_name": "Adaptive Radiation"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Genetics and Evolution",
+    "subtopic_number": "7.57",
+    "subtopic_name": "Human evolution"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.1",
+    "subtopic_name": "Health and Disease"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.2",
+    "subtopic_name": "Pathogens"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.3",
+    "subtopic_name": "Parasites causing human diseases: Malaria"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.4",
+    "subtopic_name": "Parasites causing human diseases: Filariasis"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.5",
+    "subtopic_name": "Parasites causing human diseases: Ascariasis"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.6",
+    "subtopic_name": "Parasites causing human diseases: Typhoid"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.7",
+    "subtopic_name": "Parasites causing human diseases: Pneumonia"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.8",
+    "subtopic_name": "Parasites causing human diseases: Common cold"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.9",
+    "subtopic_name": "Parasites causing human diseases: Amoebiasis"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.10",
+    "subtopic_name": "Parasites causing human diseases: Ring worm"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.11",
+    "subtopic_name": "Parasites causing human diseases: Dengue"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.12",
+    "subtopic_name": "Parasites causing human diseases: Chikungunya"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.13",
+    "subtopic_name": "Basic concepts of immunology: Vaccines"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.14",
+    "subtopic_name": "Cancer"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.15",
+    "subtopic_name": "HIV and AIDS"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.16",
+    "subtopic_name": "Adolescence"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.17",
+    "subtopic_name": "Drug abuse"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.18",
+    "subtopic_name": "Alcohol abuse"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.19",
+    "subtopic_name": "Tobacco abuse"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.20",
+    "subtopic_name": "Microbes in human welfare: In household food processing"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.21",
+    "subtopic_name": "Microbes in human welfare: In industrial production"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.22",
+    "subtopic_name": "Microbes in human welfare: In sewage treatment"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.23",
+    "subtopic_name": "Microbes in human welfare: In energy generation"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.24",
+    "subtopic_name": "Microbes in human welfare: As biocontrol agents"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Biology and Human Welfare",
+    "subtopic_number": "8.25",
+    "subtopic_name": "Microbes in human welfare: As biofertilizers"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Biotechnology and Its Applications",
+    "subtopic_number": "9.1",
+    "subtopic_name": "Principles of Biotechnology"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Biotechnology and Its Applications",
+    "subtopic_number": "9.2",
+    "subtopic_name": "Process of Biotechnology: Genetic engineering (Recombinant DNA technology)"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Biotechnology and Its Applications",
+    "subtopic_number": "9.3",
+    "subtopic_name": "Application of Biotechnology in health: Human insulin production"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Biotechnology and Its Applications",
+    "subtopic_number": "9.4",
+    "subtopic_name": "Application of Biotechnology in health: Vaccine production"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Biotechnology and Its Applications",
+    "subtopic_number": "9.5",
+    "subtopic_name": "Application of Biotechnology in health: Gene therapy"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Biotechnology and Its Applications",
+    "subtopic_number": "9.6",
+    "subtopic_name": "Application of Biotechnology in agriculture: Genetically modified organisms"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Biotechnology and Its Applications",
+    "subtopic_number": "9.7",
+    "subtopic_name": "Genetically modified organisms: Bt crops"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Biotechnology and Its Applications",
+    "subtopic_number": "9.8",
+    "subtopic_name": "Transgenic Animals"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Biotechnology and Its Applications",
+    "subtopic_number": "9.9",
+    "subtopic_name": "Biosafety issues: Biopiracy"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Biotechnology and Its Applications",
+    "subtopic_number": "9.10",
+    "subtopic_name": "Biosafety issues: Patents"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.1",
+    "subtopic_name": "Organisms and environment"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.2",
+    "subtopic_name": "Population interactions: Mutualism"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.3",
+    "subtopic_name": "Population interactions: Competition"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.4",
+    "subtopic_name": "Population interactions: Predation"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.5",
+    "subtopic_name": "Population interactions: Parasitism"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.6",
+    "subtopic_name": "Population attributes: Growth"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.7",
+    "subtopic_name": "Population attributes: Birth rate"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.8",
+    "subtopic_name": "Population attributes: Death rate"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.9",
+    "subtopic_name": "Population attributes: Age distribution"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.10",
+    "subtopic_name": "Ecosystem: Patterns"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.11",
+    "subtopic_name": "Ecosystem: Components"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.12",
+    "subtopic_name": "Ecosystem: Productivity"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.13",
+    "subtopic_name": "Ecosystem: Decomposition"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.14",
+    "subtopic_name": "Ecosystem: Energy flow"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.15",
+    "subtopic_name": "Ecosystem: Pyramids of number"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.16",
+    "subtopic_name": "Ecosystem: Pyramids of biomass"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.17",
+    "subtopic_name": "Ecosystem: Pyramids of energy"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.18",
+    "subtopic_name": "Biodiversity: Concept"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.19",
+    "subtopic_name": "Biodiversity: Patterns"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.20",
+    "subtopic_name": "Biodiversity: Importance"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.21",
+    "subtopic_name": "Biodiversity: Loss"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.22",
+    "subtopic_name": "Biodiversity conservation"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.23",
+    "subtopic_name": "Hotspots"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.24",
+    "subtopic_name": "Endangered organisms"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.25",
+    "subtopic_name": "Extinction"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.26",
+    "subtopic_name": "Red Data Book"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.27",
+    "subtopic_name": "Biosphere reserves"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.28",
+    "subtopic_name": "National parks"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.29",
+    "subtopic_name": "Sanctuaries"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "Ecology and Environment",
+    "subtopic_number": "10.30",
+    "subtopic_name": "Sacred Groves"
+  }
+]
