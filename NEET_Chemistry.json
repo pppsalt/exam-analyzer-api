@@ -1,1 +1,2966 @@
-[]
+[
+  {
+    "unit_number": "1",
+    "unit_name": "Some Basic Concepts in Chemistry",
+    "subtopic_number": "1.1",
+    "subtopic_name": "Matter and its nature"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Some Basic Concepts in Chemistry",
+    "subtopic_number": "1.2",
+    "subtopic_name": "Dalton's atomic theory"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Some Basic Concepts in Chemistry",
+    "subtopic_number": "1.3",
+    "subtopic_name": "Concept of atom"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Some Basic Concepts in Chemistry",
+    "subtopic_number": "1.4",
+    "subtopic_name": "Concept of molecule"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Some Basic Concepts in Chemistry",
+    "subtopic_number": "1.5",
+    "subtopic_name": "Concept of element"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Some Basic Concepts in Chemistry",
+    "subtopic_number": "1.6",
+    "subtopic_name": "Concept of compound"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Some Basic Concepts in Chemistry",
+    "subtopic_number": "1.7",
+    "subtopic_name": "Laws of chemical combination"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Some Basic Concepts in Chemistry",
+    "subtopic_number": "1.8",
+    "subtopic_name": "Atomic masses"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Some Basic Concepts in Chemistry",
+    "subtopic_number": "1.9",
+    "subtopic_name": "Molecular masses"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Some Basic Concepts in Chemistry",
+    "subtopic_number": "1.10",
+    "subtopic_name": "Mole concept"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Some Basic Concepts in Chemistry",
+    "subtopic_number": "1.11",
+    "subtopic_name": "Molar mass"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Some Basic Concepts in Chemistry",
+    "subtopic_number": "1.12",
+    "subtopic_name": "Percentage composition"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Some Basic Concepts in Chemistry",
+    "subtopic_number": "1.13",
+    "subtopic_name": "Empirical formulae"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Some Basic Concepts in Chemistry",
+    "subtopic_number": "1.14",
+    "subtopic_name": "Molecular formulae"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Some Basic Concepts in Chemistry",
+    "subtopic_number": "1.15",
+    "subtopic_name": "Chemical equations"
+  },
+  {
+    "unit_number": "1",
+    "unit_name": "Some Basic Concepts in Chemistry",
+    "subtopic_number": "1.16",
+    "subtopic_name": "Stoichiometry"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.1",
+    "subtopic_name": "Nature of electromagnetic radiation"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.2",
+    "subtopic_name": "Photoelectric effect"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.3",
+    "subtopic_name": "Spectrum of the hydrogen atom"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.4",
+    "subtopic_name": "Bohr model of a hydrogen atom: Its postulates"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.5",
+    "subtopic_name": "Derivation of the relations for the energy of the electron in Bohr model"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.6",
+    "subtopic_name": "Derivation of the radii of the different orbits in Bohr model"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.7",
+    "subtopic_name": "Limitations of Bohr's model"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.8",
+    "subtopic_name": "Dual nature of matter"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.9",
+    "subtopic_name": "de Broglie's relationship"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.10",
+    "subtopic_name": "Heisenberg uncertainty principle"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.11",
+    "subtopic_name": "Elementary ideas of quantum mechanics"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.12",
+    "subtopic_name": "Quantum mechanical model of the atom"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.13",
+    "subtopic_name": "Important features of the quantum mechanical model"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.14",
+    "subtopic_name": "Concept of atomic orbitals as one-electron wave functions"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.15",
+    "subtopic_name": "Variation of Ψ with r for 1s orbitals"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.16",
+    "subtopic_name": "Variation of Ψ with r for 2s orbitals"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.17",
+    "subtopic_name": "Variation of Ψ² with r for 1s orbitals"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.18",
+    "subtopic_name": "Variation of Ψ² with r for 2s orbitals"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.19",
+    "subtopic_name": "Quantum numbers: Principal quantum number and its significance"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.20",
+    "subtopic_name": "Quantum numbers: Angular momentum quantum number and its significance"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.21",
+    "subtopic_name": "Quantum numbers: Magnetic quantum number and its significance"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.22",
+    "subtopic_name": "Shapes of s orbitals"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.23",
+    "subtopic_name": "Shapes of p orbitals"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.24",
+    "subtopic_name": "Shapes of d orbitals"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.25",
+    "subtopic_name": "Electron spin"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.26",
+    "subtopic_name": "Spin quantum number"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.27",
+    "subtopic_name": "Rules for filling electrons in orbitals: Aufbau principle"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.28",
+    "subtopic_name": "Rules for filling electrons in orbitals: Pauli's exclusion principle"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.29",
+    "subtopic_name": "Rules for filling electrons in orbitals: Hund's rule"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.30",
+    "subtopic_name": "Electronic configuration of elements"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.31",
+    "subtopic_name": "Extra stability of half-filled orbitals"
+  },
+  {
+    "unit_number": "2",
+    "unit_name": "Atomic Structure",
+    "subtopic_number": "2.32",
+    "subtopic_name": "Extra stability of completely filled orbitals"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.1",
+    "subtopic_name": "Kossel-Lewis approach to chemical bond formation"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.2",
+    "subtopic_name": "Concept of ionic bonds"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.3",
+    "subtopic_name": "Concept of covalent bonds"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.4",
+    "subtopic_name": "Ionic Bonding: Formation of ionic bonds"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.5",
+    "subtopic_name": "Factors affecting the formation of ionic bonds"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.6",
+    "subtopic_name": "Calculation of lattice enthalpy"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.7",
+    "subtopic_name": "Covalent Bonding: Concept of electronegativity"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.8",
+    "subtopic_name": "Fajan's rule"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.9",
+    "subtopic_name": "Dipole moment"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.10",
+    "subtopic_name": "Valence Shell Electron Pair Repulsion (VSEPR) theory"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.11",
+    "subtopic_name": "Shapes of simple molecules based on VSEPR theory"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.12",
+    "subtopic_name": "Quantum mechanical approach to covalent bonding: Valence bond theory"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.13",
+    "subtopic_name": "Important features of valence bond theory"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.14",
+    "subtopic_name": "Concept of hybridization involving s orbitals"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.15",
+    "subtopic_name": "Concept of hybridization involving p orbitals"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.16",
+    "subtopic_name": "Concept of hybridization involving d orbitals"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.17",
+    "subtopic_name": "Resonance"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.18",
+    "subtopic_name": "Molecular Orbital Theory: Its important features"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.19",
+    "subtopic_name": "Linear Combination of Atomic Orbitals (LCAOs)"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.20",
+    "subtopic_name": "Types of molecular orbitals: Bonding orbitals"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.21",
+    "subtopic_name": "Types of molecular orbitals: Antibonding orbitals"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.22",
+    "subtopic_name": "Sigma bonds"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.23",
+    "subtopic_name": "Pi-bonds"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.24",
+    "subtopic_name": "Molecular orbital electronic configurations of homonuclear diatomic molecules"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.25",
+    "subtopic_name": "Concept of bond order"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.26",
+    "subtopic_name": "Concept of bond length"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.27",
+    "subtopic_name": "Concept of bond energy"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.28",
+    "subtopic_name": "Elementary idea of metallic bonding"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.29",
+    "subtopic_name": "Hydrogen bonding"
+  },
+  {
+    "unit_number": "3",
+    "unit_name": "Chemical Bonding and Molecular Structure",
+    "subtopic_number": "3.30",
+    "subtopic_name": "Applications of hydrogen bonding"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.1",
+    "subtopic_name": "Fundamentals of thermodynamics: System"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.2",
+    "subtopic_name": "Fundamentals of thermodynamics: Surroundings"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.3",
+    "subtopic_name": "Extensive properties"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.4",
+    "subtopic_name": "Intensive properties"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.5",
+    "subtopic_name": "State functions"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.6",
+    "subtopic_name": "Types of processes"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.7",
+    "subtopic_name": "First law of thermodynamics: Concept of work"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.8",
+    "subtopic_name": "First law of thermodynamics: Concept of heat"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.9",
+    "subtopic_name": "First law of thermodynamics: Internal energy"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.10",
+    "subtopic_name": "First law of thermodynamics: Enthalpy"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.11",
+    "subtopic_name": "Heat capacity"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.12",
+    "subtopic_name": "Molar heat capacity"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.13",
+    "subtopic_name": "Hess's law of constant heat summation"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.14",
+    "subtopic_name": "Enthalpy of bond dissociation"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.15",
+    "subtopic_name": "Enthalpy of combustion"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.16",
+    "subtopic_name": "Enthalpy of formation"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.17",
+    "subtopic_name": "Enthalpy of atomization"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.18",
+    "subtopic_name": "Enthalpy of sublimation"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.19",
+    "subtopic_name": "Enthalpy of phase transition"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.20",
+    "subtopic_name": "Enthalpy of hydration"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.21",
+    "subtopic_name": "Enthalpy of ionization"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.22",
+    "subtopic_name": "Enthalpy of solution"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.23",
+    "subtopic_name": "Second law of thermodynamics: Spontaneity of processes"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.24",
+    "subtopic_name": "ΔS of the universe as a criterion for spontaneity"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.25",
+    "subtopic_name": "ΔG of the system as a criterion for spontaneity"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.26",
+    "subtopic_name": "ΔG° (Standard Gibbs energy change)"
+  },
+  {
+    "unit_number": "4",
+    "unit_name": "Chemical Thermodynamics",
+    "subtopic_number": "4.27",
+    "subtopic_name": "Equilibrium constant"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.1",
+    "subtopic_name": "Methods for expressing concentration: Molality"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.2",
+    "subtopic_name": "Methods for expressing concentration: Molarity"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.3",
+    "subtopic_name": "Methods for expressing concentration: Mole fraction"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.4",
+    "subtopic_name": "Methods for expressing concentration: Percentage by volume"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.5",
+    "subtopic_name": "Methods for expressing concentration: Percentage by mass"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.6",
+    "subtopic_name": "Vapour pressure of solutions"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.7",
+    "subtopic_name": "Raoult's Law"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.8",
+    "subtopic_name": "Ideal solutions"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.9",
+    "subtopic_name": "Non-ideal solutions"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.10",
+    "subtopic_name": "Vapour pressure-composition plots for ideal solutions"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.11",
+    "subtopic_name": "Vapour pressure-composition plots for non-ideal solutions"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.12",
+    "subtopic_name": "Colligative properties of dilute solutions: Relative lowering of vapour pressure"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.13",
+    "subtopic_name": "Colligative properties of dilute solutions: Depression of freezing point"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.14",
+    "subtopic_name": "Colligative properties of dilute solutions: Elevation of boiling point"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.15",
+    "subtopic_name": "Colligative properties of dilute solutions: Osmotic pressure"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.16",
+    "subtopic_name": "Determination of molecular mass using colligative properties"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.17",
+    "subtopic_name": "Abnormal value of molar mass"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.18",
+    "subtopic_name": "van't Hoff factor"
+  },
+  {
+    "unit_number": "5",
+    "unit_name": "Solutions",
+    "subtopic_number": "5.19",
+    "subtopic_name": "Significance of van't Hoff factor"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.1",
+    "subtopic_name": "Meaning of equilibrium"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.2",
+    "subtopic_name": "Concept of dynamic equilibrium"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.3",
+    "subtopic_name": "Equilibria involving physical processes: Solid-liquid equilibrium"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.4",
+    "subtopic_name": "Equilibria involving physical processes: Liquid-gas equilibrium"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.5",
+    "subtopic_name": "Equilibria involving physical processes: Solid-gas equilibrium"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.6",
+    "subtopic_name": "Henry's law"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.7",
+    "subtopic_name": "General characteristics of equilibrium involving physical processes"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.8",
+    "subtopic_name": "Equilibrium involving chemical processes: Law of chemical equilibrium"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.9",
+    "subtopic_name": "Equilibrium constants: Kp"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.10",
+    "subtopic_name": "Equilibrium constants: Kc"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.11",
+    "subtopic_name": "Significance of equilibrium constants"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.12",
+    "subtopic_name": "Significance of ΔG in chemical equilibrium"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.13",
+    "subtopic_name": "Significance of ΔG° in chemical equilibrium"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.14",
+    "subtopic_name": "Factors affecting equilibrium: Concentration"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.15",
+    "subtopic_name": "Factors affecting equilibrium: Pressure"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.16",
+    "subtopic_name": "Factors affecting equilibrium: Temperature"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.17",
+    "subtopic_name": "Factors affecting equilibrium: Effect of catalyst"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.18",
+    "subtopic_name": "Le Chatelier's principle"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.19",
+    "subtopic_name": "Ionic equilibrium: Weak electrolytes"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.20",
+    "subtopic_name": "Ionic equilibrium: Strong electrolytes"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.21",
+    "subtopic_name": "Ionization of electrolytes"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.22",
+    "subtopic_name": "Concepts of acids and bases: Arrhenius"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.23",
+    "subtopic_name": "Concepts of acids and bases: Bronsted-Lowry"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.24",
+    "subtopic_name": "Concepts of acids and bases: Lewis"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.25",
+    "subtopic_name": "Ionization of acids and bases"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.26",
+    "subtopic_name": "Acid-base equilibria (including multistage ionization)"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.27",
+    "subtopic_name": "Ionization constants"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.28",
+    "subtopic_name": "Ionization of water"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.29",
+    "subtopic_name": "pH scale"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.30",
+    "subtopic_name": "Common ion effect"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.31",
+    "subtopic_name": "Hydrolysis of salts"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.32",
+    "subtopic_name": "pH of salt solutions"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.33",
+    "subtopic_name": "Solubility of sparingly soluble salts"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.34",
+    "subtopic_name": "Solubility products"
+  },
+  {
+    "unit_number": "6",
+    "unit_name": "Equilibrium",
+    "subtopic_number": "6.35",
+    "subtopic_name": "Buffer solutions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.1",
+    "subtopic_name": "Electronic concepts of oxidation"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.2",
+    "subtopic_name": "Electronic concepts of reduction"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.3",
+    "subtopic_name": "Redox reactions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.4",
+    "subtopic_name": "Oxidation number"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.5",
+    "subtopic_name": "Rules for assigning oxidation number"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.6",
+    "subtopic_name": "Balancing of redox reactions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.7",
+    "subtopic_name": "Electrolytic conduction"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.8",
+    "subtopic_name": "Metallic conduction"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.9",
+    "subtopic_name": "Conductance in electrolytic solutions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.10",
+    "subtopic_name": "Molar conductivities"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.11",
+    "subtopic_name": "Variation of molar conductivities with concentration"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.12",
+    "subtopic_name": "Kohlrausch's law"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.13",
+    "subtopic_name": "Applications of Kohlrausch's law"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.14",
+    "subtopic_name": "Electrochemical cells: Electrolytic cells"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.15",
+    "subtopic_name": "Electrochemical cells: Galvanic cells"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.16",
+    "subtopic_name": "Different types of electrodes"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.17",
+    "subtopic_name": "Electrode potentials"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.18",
+    "subtopic_name": "Standard electrode potential"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.19",
+    "subtopic_name": "Half-cell reactions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.20",
+    "subtopic_name": "Cell reactions"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.21",
+    "subtopic_name": "emf of a Galvanic cell"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.22",
+    "subtopic_name": "Measurement of emf of a Galvanic cell"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.23",
+    "subtopic_name": "Nernst equation"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.24",
+    "subtopic_name": "Applications of Nernst equation"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.25",
+    "subtopic_name": "Relationship between cell potential and Gibbs' energy change"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.26",
+    "subtopic_name": "Dry cell"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.27",
+    "subtopic_name": "Lead accumulator"
+  },
+  {
+    "unit_number": "7",
+    "unit_name": "Redox Reactions and Electrochemistry",
+    "subtopic_number": "7.28",
+    "subtopic_name": "Fuel cells"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.1",
+    "subtopic_name": "Rate of a chemical reaction"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.2",
+    "subtopic_name": "Factors affecting the rate of reactions: Concentration"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.3",
+    "subtopic_name": "Factors affecting the rate of reactions: Temperature"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.4",
+    "subtopic_name": "Factors affecting the rate of reactions: Pressure"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.5",
+    "subtopic_name": "Factors affecting the rate of reactions: Catalyst"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.6",
+    "subtopic_name": "Elementary reactions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.7",
+    "subtopic_name": "Complex reactions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.8",
+    "subtopic_name": "Order of reactions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.9",
+    "subtopic_name": "Molecularity of reactions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.10",
+    "subtopic_name": "Rate law"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.11",
+    "subtopic_name": "Rate constant"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.12",
+    "subtopic_name": "Units of rate constant"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.13",
+    "subtopic_name": "Differential form of zero-order reactions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.14",
+    "subtopic_name": "Differential form of first-order reactions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.15",
+    "subtopic_name": "Integral form of zero-order reactions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.16",
+    "subtopic_name": "Integral form of first-order reactions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.17",
+    "subtopic_name": "Characteristics of zero-order reactions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.18",
+    "subtopic_name": "Characteristics of first-order reactions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.19",
+    "subtopic_name": "Half-lives of zero-order reactions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.20",
+    "subtopic_name": "Half-lives of first-order reactions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.21",
+    "subtopic_name": "Effect of temperature on the rate of reactions"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.22",
+    "subtopic_name": "Arrhenius theory"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.23",
+    "subtopic_name": "Activation energy"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.24",
+    "subtopic_name": "Calculation of activation energy"
+  },
+  {
+    "unit_number": "8",
+    "unit_name": "Chemical Kinetics",
+    "subtopic_number": "8.25",
+    "subtopic_name": "Collision theory of bimolecular gaseous reactions (no derivation)"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Classification of Elements and Periodicity in Properties",
+    "subtopic_number": "9.1",
+    "subtopic_name": "Modern periodic law"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Classification of Elements and Periodicity in Properties",
+    "subtopic_number": "9.2",
+    "subtopic_name": "Present form of the periodic table"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Classification of Elements and Periodicity in Properties",
+    "subtopic_number": "9.3",
+    "subtopic_name": "s-block elements"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Classification of Elements and Periodicity in Properties",
+    "subtopic_number": "9.4",
+    "subtopic_name": "p-block elements"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Classification of Elements and Periodicity in Properties",
+    "subtopic_number": "9.5",
+    "subtopic_name": "d-block elements"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Classification of Elements and Periodicity in Properties",
+    "subtopic_number": "9.6",
+    "subtopic_name": "f-block elements"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Classification of Elements and Periodicity in Properties",
+    "subtopic_number": "9.7",
+    "subtopic_name": "Periodic trends in properties of elements: Atomic radii"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Classification of Elements and Periodicity in Properties",
+    "subtopic_number": "9.8",
+    "subtopic_name": "Periodic trends in properties of elements: Ionic radii"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Classification of Elements and Periodicity in Properties",
+    "subtopic_number": "9.9",
+    "subtopic_name": "Periodic trends in properties of elements: Ionization enthalpy"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Classification of Elements and Periodicity in Properties",
+    "subtopic_number": "9.10",
+    "subtopic_name": "Periodic trends in properties of elements: Electron gain enthalpy"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Classification of Elements and Periodicity in Properties",
+    "subtopic_number": "9.11",
+    "subtopic_name": "Periodic trends in properties of elements: Valence"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Classification of Elements and Periodicity in Properties",
+    "subtopic_number": "9.12",
+    "subtopic_name": "Periodic trends in properties of elements: Oxidation states"
+  },
+  {
+    "unit_number": "9",
+    "unit_name": "Classification of Elements and Periodicity in Properties",
+    "subtopic_number": "9.13",
+    "subtopic_name": "Periodic trends in properties of elements: Chemical reactivity"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "p-Block Elements",
+    "subtopic_number": "10.1",
+    "subtopic_name": "Group-13 Elements: General introduction"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "p-Block Elements",
+    "subtopic_number": "10.2",
+    "subtopic_name": "Group-14 Elements: General introduction"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "p-Block Elements",
+    "subtopic_number": "10.3",
+    "subtopic_name": "Group-15 Elements: General introduction"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "p-Block Elements",
+    "subtopic_number": "10.4",
+    "subtopic_name": "Group-16 Elements: General introduction"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "p-Block Elements",
+    "subtopic_number": "10.5",
+    "subtopic_name": "Group-17 Elements: General introduction"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "p-Block Elements",
+    "subtopic_number": "10.6",
+    "subtopic_name": "Group-18 Elements: General introduction"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "p-Block Elements",
+    "subtopic_number": "10.7",
+    "subtopic_name": "Electronic configuration of p-block elements"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "p-Block Elements",
+    "subtopic_number": "10.8",
+    "subtopic_name": "General trends in physical properties of elements across the periods"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "p-Block Elements",
+    "subtopic_number": "10.9",
+    "subtopic_name": "General trends in physical properties of elements down the groups"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "p-Block Elements",
+    "subtopic_number": "10.10",
+    "subtopic_name": "General trends in chemical properties of elements across the periods"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "p-Block Elements",
+    "subtopic_number": "10.11",
+    "subtopic_name": "General trends in chemical properties of elements down the groups"
+  },
+  {
+    "unit_number": "10",
+    "unit_name": "p-Block Elements",
+    "subtopic_number": "10.12",
+    "subtopic_name": "Unique behaviour of the first element in each group"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.1",
+    "subtopic_name": "Transition Elements: General introduction"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.2",
+    "subtopic_name": "Transition Elements: Electronic configuration"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.3",
+    "subtopic_name": "Transition Elements: Occurrence"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.4",
+    "subtopic_name": "Transition Elements: Characteristics"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.5",
+    "subtopic_name": "General trends in properties of the first-row transition elements: Physical properties"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.6",
+    "subtopic_name": "General trends in properties of the first-row transition elements: Ionization enthalpy"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.7",
+    "subtopic_name": "General trends in properties of the first-row transition elements: Oxidation states"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.8",
+    "subtopic_name": "General trends in properties of the first-row transition elements: Atomic radii"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.9",
+    "subtopic_name": "General trends in properties of the first-row transition elements: Colour"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.10",
+    "subtopic_name": "General trends in properties of the first-row transition elements: Catalytic behaviour"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.11",
+    "subtopic_name": "General trends in properties of the first-row transition elements: Magnetic properties"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.12",
+    "subtopic_name": "General trends in properties of the first-row transition elements: Complex formation"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.13",
+    "subtopic_name": "General trends in properties of the first-row transition elements: Interstitial compounds"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.14",
+    "subtopic_name": "General trends in properties of the first-row transition elements: Alloy formation"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.15",
+    "subtopic_name": "Preparation of K₂Cr₂O₇"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.16",
+    "subtopic_name": "Properties of K₂Cr₂O₇"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.17",
+    "subtopic_name": "Uses of K₂Cr₂O₇"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.18",
+    "subtopic_name": "Preparation of KMnO₄"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.19",
+    "subtopic_name": "Properties of KMnO₄"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.20",
+    "subtopic_name": "Uses of KMnO₄"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.21",
+    "subtopic_name": "Inner Transition Elements: Lanthanoids"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.22",
+    "subtopic_name": "Lanthanoids: Electronic configuration"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.23",
+    "subtopic_name": "Lanthanoids: Oxidation states"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.24",
+    "subtopic_name": "Lanthanoids: Lanthanoid contraction"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.25",
+    "subtopic_name": "Inner Transition Elements: Actinoids"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.26",
+    "subtopic_name": "Actinoids: Electronic configuration"
+  },
+  {
+    "unit_number": "11",
+    "unit_name": "d- and f-Block Elements",
+    "subtopic_number": "11.27",
+    "subtopic_name": "Actinoids: Oxidation states"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Co-ordination Compounds",
+    "subtopic_number": "12.1",
+    "subtopic_name": "Introduction to coordination compounds"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Co-ordination Compounds",
+    "subtopic_number": "12.2",
+    "subtopic_name": "Werner's theory"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Co-ordination Compounds",
+    "subtopic_number": "12.3",
+    "subtopic_name": "Ligands"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Co-ordination Compounds",
+    "subtopic_number": "12.4",
+    "subtopic_name": "Coordination number"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Co-ordination Compounds",
+    "subtopic_number": "12.5",
+    "subtopic_name": "Denticity"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Co-ordination Compounds",
+    "subtopic_number": "12.6",
+    "subtopic_name": "Chelation"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Co-ordination Compounds",
+    "subtopic_number": "12.7",
+    "subtopic_name": "IUPAC nomenclature of mononuclear coordination compounds"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Co-ordination Compounds",
+    "subtopic_number": "12.8",
+    "subtopic_name": "Isomerism"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Co-ordination Compounds",
+    "subtopic_number": "12.9",
+    "subtopic_name": "Bonding: Valence bond approach"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Co-ordination Compounds",
+    "subtopic_number": "12.10",
+    "subtopic_name": "Basic ideas of Crystal field theory"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Co-ordination Compounds",
+    "subtopic_number": "12.11",
+    "subtopic_name": "Colour of coordination compounds"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Co-ordination Compounds",
+    "subtopic_number": "12.12",
+    "subtopic_name": "Magnetic properties of coordination compounds"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Co-ordination Compounds",
+    "subtopic_number": "12.13",
+    "subtopic_name": "Importance of coordination compounds in qualitative analysis"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Co-ordination Compounds",
+    "subtopic_number": "12.14",
+    "subtopic_name": "Importance of coordination compounds in extraction of metals"
+  },
+  {
+    "unit_number": "12",
+    "unit_name": "Co-ordination Compounds",
+    "subtopic_number": "12.15",
+    "subtopic_name": "Importance of coordination compounds in biological systems"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.1",
+    "subtopic_name": "Purification: Crystallization"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.2",
+    "subtopic_name": "Purification: Sublimation"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.3",
+    "subtopic_name": "Purification: Distillation"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.4",
+    "subtopic_name": "Purification: Differential extraction"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.5",
+    "subtopic_name": "Purification: Chromatography"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.6",
+    "subtopic_name": "Principles of crystallization"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.7",
+    "subtopic_name": "Principles of sublimation"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.8",
+    "subtopic_name": "Principles of distillation"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.9",
+    "subtopic_name": "Principles of differential extraction"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.10",
+    "subtopic_name": "Principles of chromatography"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.11",
+    "subtopic_name": "Applications of purification methods"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.12",
+    "subtopic_name": "Qualitative analysis: Detection of nitrogen"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.13",
+    "subtopic_name": "Qualitative analysis: Detection of sulphur"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.14",
+    "subtopic_name": "Qualitative analysis: Detection of phosphorus"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.15",
+    "subtopic_name": "Qualitative analysis: Detection of halogens"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.16",
+    "subtopic_name": "Quantitative analysis: Estimation of carbon"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.17",
+    "subtopic_name": "Quantitative analysis: Estimation of hydrogen"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.18",
+    "subtopic_name": "Quantitative analysis: Estimation of nitrogen"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.19",
+    "subtopic_name": "Quantitative analysis: Estimation of halogens"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.20",
+    "subtopic_name": "Quantitative analysis: Estimation of sulphur"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.21",
+    "subtopic_name": "Quantitative analysis: Estimation of phosphorus"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.22",
+    "subtopic_name": "Calculations of empirical formulae"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.23",
+    "subtopic_name": "Calculations of molecular formulae"
+  },
+  {
+    "unit_number": "13",
+    "unit_name": "Purification and Characterisation of Organic Compounds",
+    "subtopic_number": "13.24",
+    "subtopic_name": "Numerical problems in organic quantitative analysis"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.1",
+    "subtopic_name": "Tetravalency of carbon"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.2",
+    "subtopic_name": "Shapes of simple molecules"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.3",
+    "subtopic_name": "Hybridization: s orbitals"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.4",
+    "subtopic_name": "Hybridization: p orbitals"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.5",
+    "subtopic_name": "Classification of organic compounds based on functional groups"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.6",
+    "subtopic_name": "Organic compounds containing halogens"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.7",
+    "subtopic_name": "Organic compounds containing oxygen"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.8",
+    "subtopic_name": "Organic compounds containing nitrogen"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.9",
+    "subtopic_name": "Organic compounds containing sulphur"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.10",
+    "subtopic_name": "Homologous series"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.11",
+    "subtopic_name": "Isomerism: Structural isomerism"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.12",
+    "subtopic_name": "Isomerism: Stereoisomerism"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.13",
+    "subtopic_name": "Nomenclature: Trivial"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.14",
+    "subtopic_name": "Nomenclature: IUPAC"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.15",
+    "subtopic_name": "Covalent bond fission: Homolytic"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.16",
+    "subtopic_name": "Covalent bond fission: Heterolytic"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.17",
+    "subtopic_name": "Free radicals"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.18",
+    "subtopic_name": "Carbocations"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.19",
+    "subtopic_name": "Carbanions"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.20",
+    "subtopic_name": "Stability of carbocations"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.21",
+    "subtopic_name": "Stability of free radicals"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.22",
+    "subtopic_name": "Electrophiles"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.23",
+    "subtopic_name": "Nucleophiles"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.24",
+    "subtopic_name": "Electronic displacement in a covalent bond: Inductive effect"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.25",
+    "subtopic_name": "Electronic displacement in a covalent bond: Electromeric effect"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.26",
+    "subtopic_name": "Electronic displacement in a covalent bond: Resonance"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.27",
+    "subtopic_name": "Electronic displacement in a covalent bond: Hyperconjugation"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.28",
+    "subtopic_name": "Common types of organic reactions: Substitution"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.29",
+    "subtopic_name": "Common types of organic reactions: Addition"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.30",
+    "subtopic_name": "Common types of organic reactions: Elimination"
+  },
+  {
+    "unit_number": "14",
+    "unit_name": "Some Basic Principles of Organic Chemistry",
+    "subtopic_number": "14.31",
+    "subtopic_name": "Common types of organic reactions: Rearrangement"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.1",
+    "subtopic_name": "Classification of hydrocarbons"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.2",
+    "subtopic_name": "Isomerism of hydrocarbons"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.3",
+    "subtopic_name": "IUPAC nomenclature of hydrocarbons"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.4",
+    "subtopic_name": "General methods of preparation of hydrocarbons"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.5",
+    "subtopic_name": "Properties of hydrocarbons"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.6",
+    "subtopic_name": "Reactions of hydrocarbons"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.7",
+    "subtopic_name": "Alkanes: Conformations"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.8",
+    "subtopic_name": "Alkanes: Sawhorse projections (of ethane)"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.9",
+    "subtopic_name": "Alkanes: Newman projections (of ethane)"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.10",
+    "subtopic_name": "Alkanes: Mechanism of halogenation"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.11",
+    "subtopic_name": "Alkenes: Geometrical isomerism"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.12",
+    "subtopic_name": "Alkenes: Mechanism of electrophilic addition"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.13",
+    "subtopic_name": "Alkenes: Addition of hydrogen"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.14",
+    "subtopic_name": "Alkenes: Addition of halogens"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.15",
+    "subtopic_name": "Alkenes: Addition of water"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.16",
+    "subtopic_name": "Alkenes: Addition of hydrogen halides (Markownikoff's effect)"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.17",
+    "subtopic_name": "Alkenes: Addition of hydrogen halides (Peroxide effect)"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.18",
+    "subtopic_name": "Alkenes: Ozonolysis"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.19",
+    "subtopic_name": "Alkenes: Polymerization"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.20",
+    "subtopic_name": "Alkynes: Acidic character"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.21",
+    "subtopic_name": "Alkynes: Addition of hydrogen"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.22",
+    "subtopic_name": "Alkynes: Addition of halogens"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.23",
+    "subtopic_name": "Alkynes: Addition of water"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.24",
+    "subtopic_name": "Alkynes: Addition of hydrogen halides"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.25",
+    "subtopic_name": "Alkynes: Polymerization"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.26",
+    "subtopic_name": "Aromatic hydrocarbons: Nomenclature"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.27",
+    "subtopic_name": "Aromatic hydrocarbons: Benzene structure"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.28",
+    "subtopic_name": "Aromatic hydrocarbons: Aromaticity"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.29",
+    "subtopic_name": "Aromatic hydrocarbons: Mechanism of electrophilic substitution"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.30",
+    "subtopic_name": "Aromatic hydrocarbons: Halogenation"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.31",
+    "subtopic_name": "Aromatic hydrocarbons: Nitration"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.32",
+    "subtopic_name": "Aromatic hydrocarbons: Friedel-Craft's alkylation"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.33",
+    "subtopic_name": "Aromatic hydrocarbons: Friedel-Craft's acylation"
+  },
+  {
+    "unit_number": "15",
+    "unit_name": "Hydrocarbons",
+    "subtopic_number": "15.34",
+    "subtopic_name": "Aromatic hydrocarbons: Directive influence of the functional group in mono-substituted benzene"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Organic Compounds Containing Halogens",
+    "subtopic_number": "16.1",
+    "subtopic_name": "General methods of preparation"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Organic Compounds Containing Halogens",
+    "subtopic_number": "16.2",
+    "subtopic_name": "Properties"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Organic Compounds Containing Halogens",
+    "subtopic_number": "16.3",
+    "subtopic_name": "Reactions"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Organic Compounds Containing Halogens",
+    "subtopic_number": "16.4",
+    "subtopic_name": "Nature of C-X bond"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Organic Compounds Containing Halogens",
+    "subtopic_number": "16.5",
+    "subtopic_name": "Mechanisms of substitution reactions"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Organic Compounds Containing Halogens",
+    "subtopic_number": "16.6",
+    "subtopic_name": "Uses"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Organic Compounds Containing Halogens",
+    "subtopic_number": "16.7",
+    "subtopic_name": "Environmental effects of chloroform"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Organic Compounds Containing Halogens",
+    "subtopic_number": "16.8",
+    "subtopic_name": "Environmental effects of iodoform"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Organic Compounds Containing Halogens",
+    "subtopic_number": "16.9",
+    "subtopic_name": "Environmental effects of freons"
+  },
+  {
+    "unit_number": "16",
+    "unit_name": "Organic Compounds Containing Halogens",
+    "subtopic_number": "16.10",
+    "subtopic_name": "Environmental effects of DDT"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.1",
+    "subtopic_name": "General methods of preparation"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.2",
+    "subtopic_name": "Properties"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.3",
+    "subtopic_name": "Reactions"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.4",
+    "subtopic_name": "Uses"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.5",
+    "subtopic_name": "Alcohols: Identification of primary alcohols"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.6",
+    "subtopic_name": "Alcohols: Identification of secondary alcohols"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.7",
+    "subtopic_name": "Alcohols: Identification of tertiary alcohols"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.8",
+    "subtopic_name": "Alcohols: Mechanism of dehydration"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.9",
+    "subtopic_name": "Phenols: Acidic nature"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.10",
+    "subtopic_name": "Phenols: Electrophilic substitution reactions: Halogenation"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.11",
+    "subtopic_name": "Phenols: Electrophilic substitution reactions: Nitration"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.12",
+    "subtopic_name": "Phenols: Electrophilic substitution reactions: Sulphonation"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.13",
+    "subtopic_name": "Phenols: Reimer-Tiemann reaction"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.14",
+    "subtopic_name": "Ethers: Structure"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.15",
+    "subtopic_name": "Aldehydes and Ketones: Nature of carbonyl group"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.16",
+    "subtopic_name": "Aldehydes and Ketones: Nucleophilic addition to >C=O group"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.17",
+    "subtopic_name": "Aldehydes and Ketones: Relative reactivities of aldehydes"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.18",
+    "subtopic_name": "Aldehydes and Ketones: Relative reactivities of ketones"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.19",
+    "subtopic_name": "Aldehydes and Ketones: Nucleophilic addition reactions: Addition of HCN"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.20",
+    "subtopic_name": "Aldehydes and Ketones: Nucleophilic addition reactions: Addition of NH₃"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.21",
+    "subtopic_name": "Aldehydes and Ketones: Nucleophilic addition reactions: Addition of NH₃ derivatives"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.22",
+    "subtopic_name": "Aldehydes and Ketones: Addition of Grignard reagent"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.23",
+    "subtopic_name": "Aldehydes and Ketones: Oxidation"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.24",
+    "subtopic_name": "Aldehydes and Ketones: Reduction (Wolf Kishner)"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.25",
+    "subtopic_name": "Aldehydes and Ketones: Reduction (Clemmensen)"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.26",
+    "subtopic_name": "Aldehydes and Ketones: Acidity of α-hydrogen"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.27",
+    "subtopic_name": "Aldehydes and Ketones: Aldol condensation"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.28",
+    "subtopic_name": "Aldehydes and Ketones: Cannizzaro reaction"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.29",
+    "subtopic_name": "Aldehydes and Ketones: Haloform reaction"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.30",
+    "subtopic_name": "Aldehydes and Ketones: Chemical tests to distinguish between aldehydes and ketones"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.31",
+    "subtopic_name": "Carboxylic Acids: Acidic strength"
+  },
+  {
+    "unit_number": "17",
+    "unit_name": "Organic Compounds Containing Oxygen",
+    "subtopic_number": "17.32",
+    "subtopic_name": "Carboxylic Acids: Factors affecting acidic strength"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Organic Compounds Containing Nitrogen",
+    "subtopic_number": "18.1",
+    "subtopic_name": "General methods of preparation"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Organic Compounds Containing Nitrogen",
+    "subtopic_number": "18.2",
+    "subtopic_name": "Properties"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Organic Compounds Containing Nitrogen",
+    "subtopic_number": "18.3",
+    "subtopic_name": "Reactions"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Organic Compounds Containing Nitrogen",
+    "subtopic_number": "18.4",
+    "subtopic_name": "Uses"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Organic Compounds Containing Nitrogen",
+    "subtopic_number": "18.5",
+    "subtopic_name": "Amines: Nomenclature"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Organic Compounds Containing Nitrogen",
+    "subtopic_number": "18.6",
+    "subtopic_name": "Amines: Classification"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Organic Compounds Containing Nitrogen",
+    "subtopic_number": "18.7",
+    "subtopic_name": "Amines: Structure"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Organic Compounds Containing Nitrogen",
+    "subtopic_number": "18.8",
+    "subtopic_name": "Amines: Basic character"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Organic Compounds Containing Nitrogen",
+    "subtopic_number": "18.9",
+    "subtopic_name": "Amines: Identification of primary amines"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Organic Compounds Containing Nitrogen",
+    "subtopic_number": "18.10",
+    "subtopic_name": "Amines: Identification of secondary amines"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Organic Compounds Containing Nitrogen",
+    "subtopic_number": "18.11",
+    "subtopic_name": "Amines: Identification of tertiary amines"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Organic Compounds Containing Nitrogen",
+    "subtopic_number": "18.12",
+    "subtopic_name": "Amines: Basic character of primary amines"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Organic Compounds Containing Nitrogen",
+    "subtopic_number": "18.13",
+    "subtopic_name": "Amines: Basic character of secondary amines"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Organic Compounds Containing Nitrogen",
+    "subtopic_number": "18.14",
+    "subtopic_name": "Amines: Basic character of tertiary amines"
+  },
+  {
+    "unit_number": "18",
+    "unit_name": "Organic Compounds Containing Nitrogen",
+    "subtopic_number": "18.15",
+    "subtopic_name": "Diazonium Salts: Importance in synthetic organic chemistry"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.1",
+    "subtopic_name": "General introduction to biomolecules"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.2",
+    "subtopic_name": "Importance of biomolecules"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.3",
+    "subtopic_name": "Carbohydrates: Classification"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.4",
+    "subtopic_name": "Carbohydrates: Aldoses"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.5",
+    "subtopic_name": "Carbohydrates: Ketoses"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.6",
+    "subtopic_name": "Carbohydrates: Monosaccharides (glucose)"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.7",
+    "subtopic_name": "Carbohydrates: Monosaccharides (fructose)"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.8",
+    "subtopic_name": "Carbohydrates: Constituent monosaccharides of sucrose"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.9",
+    "subtopic_name": "Carbohydrates: Constituent monosaccharides of lactose"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.10",
+    "subtopic_name": "Carbohydrates: Constituent monosaccharides of maltose"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.11",
+    "subtopic_name": "Proteins: Elementary idea of α-amino acids"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.12",
+    "subtopic_name": "Proteins: Peptide bond"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.13",
+    "subtopic_name": "Proteins: Polypeptides"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.14",
+    "subtopic_name": "Proteins: Primary structure (qualitative idea only)"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.15",
+    "subtopic_name": "Proteins: Secondary structure (qualitative idea only)"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.16",
+    "subtopic_name": "Proteins: Tertiary structure (qualitative idea only)"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.17",
+    "subtopic_name": "Proteins: Quaternary structure (qualitative idea only)"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.18",
+    "subtopic_name": "Proteins: Denaturation of proteins"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.19",
+    "subtopic_name": "Proteins: Enzymes"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.20",
+    "subtopic_name": "Vitamins: Classification"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.21",
+    "subtopic_name": "Vitamins: Functions"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.22",
+    "subtopic_name": "Nucleic Acids: Chemical constitution of DNA"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.23",
+    "subtopic_name": "Nucleic Acids: Chemical constitution of RNA"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.24",
+    "subtopic_name": "Biological functions of nucleic acids"
+  },
+  {
+    "unit_number": "19",
+    "unit_name": "Biomolecules",
+    "subtopic_number": "19.25",
+    "subtopic_name": "Hormones: General introduction"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.1",
+    "subtopic_name": "Detection of extra elements: Nitrogen"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.2",
+    "subtopic_name": "Detection of extra elements: Sulphur"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.3",
+    "subtopic_name": "Detection of extra elements: Halogens"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.4",
+    "subtopic_name": "Detection of functional groups: Hydroxyl (alcoholic)"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.5",
+    "subtopic_name": "Detection of functional groups: Hydroxyl (phenolic)"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.6",
+    "subtopic_name": "Detection of functional groups: Carbonyl (aldehyde)"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.7",
+    "subtopic_name": "Detection of functional groups: Carbonyl (ketones)"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.8",
+    "subtopic_name": "Detection of functional groups: Carboxyl"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.9",
+    "subtopic_name": "Detection of functional groups: Amino"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.10",
+    "subtopic_name": "Chemistry in preparation of inorganic compounds: Mohr's salt"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.11",
+    "subtopic_name": "Chemistry in preparation of inorganic compounds: Potash alum"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.12",
+    "subtopic_name": "Chemistry in preparation of organic compounds: Acetanilide"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.13",
+    "subtopic_name": "Chemistry in preparation of organic compounds: p-nitro acetanilide"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.14",
+    "subtopic_name": "Chemistry in preparation of organic compounds: Aniline yellow"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.15",
+    "subtopic_name": "Chemistry in preparation of organic compounds: Iodoform"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.16",
+    "subtopic_name": "Titrimetric exercises: Acids"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.17",
+    "subtopic_name": "Titrimetric exercises: Bases"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.18",
+    "subtopic_name": "Titrimetric exercises: Use of indicators"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.19",
+    "subtopic_name": "Titrimetric exercises: Oxalic acid vs KMnO₄"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.20",
+    "subtopic_name": "Titrimetric exercises: Mohr's salt vs KMnO₄"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.21",
+    "subtopic_name": "Qualitative salt analysis: Chemical principles"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.22",
+    "subtopic_name": "Qualitative salt analysis - Cations: Pb²⁺"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.23",
+    "subtopic_name": "Qualitative salt analysis - Cations: Cu²⁺"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.24",
+    "subtopic_name": "Qualitative salt analysis - Cations: Al³⁺"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.25",
+    "subtopic_name": "Qualitative salt analysis - Cations: Fe³⁺"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.26",
+    "subtopic_name": "Qualitative salt analysis - Cations: Zn²⁺"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.27",
+    "subtopic_name": "Qualitative salt analysis - Cations: Ni²⁺"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.28",
+    "subtopic_name": "Qualitative salt analysis - Cations: Ca²⁺"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.29",
+    "subtopic_name": "Qualitative salt analysis - Cations: Ba²⁺"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.30",
+    "subtopic_name": "Qualitative salt analysis - Cations: Mg²⁺"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.31",
+    "subtopic_name": "Qualitative salt analysis - Cations: NH₄⁺"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.32",
+    "subtopic_name": "Qualitative salt analysis - Anions: CO₃²⁻"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.33",
+    "subtopic_name": "Qualitative salt analysis - Anions: S²⁻"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.34",
+    "subtopic_name": "Qualitative salt analysis - Anions: SO₄²⁻"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.35",
+    "subtopic_name": "Qualitative salt analysis - Anions: NO₃⁻"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.36",
+    "subtopic_name": "Qualitative salt analysis - Anions: NO₂⁻"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.37",
+    "subtopic_name": "Qualitative salt analysis - Anions: Cl⁻"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.38",
+    "subtopic_name": "Qualitative salt analysis - Anions: Br⁻"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.39",
+    "subtopic_name": "Qualitative salt analysis - Anions: I⁻"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.40",
+    "subtopic_name": "Chemical principles in experiments: Enthalpy of solution of CuSO₄"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.41",
+    "subtopic_name": "Chemical principles in experiments: Enthalpy of neutralization of strong acid and strong base"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.42",
+    "subtopic_name": "Chemical principles in experiments: Preparation of lyophilic sols"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.43",
+    "subtopic_name": "Chemical principles in experiments: Preparation of lyophobic sols"
+  },
+  {
+    "unit_number": "20",
+    "unit_name": "Principles Related to Practical Chemistry",
+    "subtopic_number": "20.44",
+    "subtopic_name": "Chemical principles in experiments: Kinetic study of the reaction of iodide ions with hydrogen peroxide at room temperature"
+  }
+]
