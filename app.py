@@ -37,7 +37,7 @@ def health():
     ref_stats = subtopic_matcher.get_stats()
     return jsonify({
         "status": "ok",
-        "version": "2.0-vision",
+        "version": "2.1-vision",
         "timestamp": datetime.now().isoformat(),
         "reference_data": ref_stats,
     })
@@ -49,14 +49,14 @@ def analyze():
     Main endpoint. Accepts multipart form with:
     - pdf_file: the PDF file
     - model_id: OpenRouter model ID (must be vision-capable)
-    - exam_type: (optional) JEE or NEET
-    - subject: (optional) Physics/Chemistry/Mathematics/Biology
+    - exam_type: JEE or NEET (mandatory from frontend)
+    - subjects: comma-separated list e.g. "Physics,Chemistry,Mathematics"
     Returns JSON with analysis results + download URLs for DOCX/XLSX.
     """
     pdf_file = request.files.get("pdf_file")
     model_id = request.form.get("model_id", "google/gemini-2.5-flash")
-    forced_exam = request.form.get("exam_type", "")
-    forced_subject = request.form.get("subject", "")
+    exam_type = request.form.get("exam_type", "")
+    subjects_str = request.form.get("subjects", "")
     upload_id = request.form.get("upload_id", "")
 
     if not pdf_file:
@@ -64,6 +64,15 @@ def analyze():
 
     if not pdf_file.filename.lower().endswith(".pdf"):
         return jsonify({"status": "failed", "error": "Only PDF files allowed"}), 400
+
+    if not exam_type:
+        return jsonify({"status": "failed", "error": "Exam type is required (JEE or NEET)"}), 400
+
+    if not subjects_str:
+        return jsonify({"status": "failed", "error": "At least one subject is required"}), 400
+
+    # Parse subjects list
+    subjects = [s.strip() for s in subjects_str.split(",") if s.strip()]
 
     start_time = time.time()
     job_id = str(uuid.uuid4())[:8]
@@ -75,21 +84,19 @@ def analyze():
     pdf_file.save(pdf_path)
 
     try:
-        # Step 1: Convert PDF pages to images + detect metadata
+        # Step 1: Convert PDF pages to images
         logger.info(f"[{job_id}] Step 1: Converting PDF to images")
         extraction = pdf_extractor.process_pdf(pdf_path, job_dir)
         page_images = extraction["page_images"]
-        exam_type = forced_exam or extraction["exam_type"]
-        subject = forced_subject or extraction["subject"]
 
         if not page_images:
             raise ValueError("No pages found in PDF")
 
-        logger.info(f"[{job_id}] Got {len(page_images)} page images, exam={exam_type}, subject={subject}")
+        logger.info(f"[{job_id}] Got {len(page_images)} page images, exam={exam_type}, subjects={subjects}")
 
-        # Step 2: AI Vision Analysis — send page images to AI
+        # Step 2: AI Vision Analysis — send page images to AI with exam/subject context
         logger.info(f"[{job_id}] Step 2: AI Vision Analysis with {model_id}")
-        ai_result = ai_analyzer.analyze(page_images, model_id, exam_type, subject)
+        ai_result = ai_analyzer.analyze(page_images, model_id, exam_type, subjects)
         ai_questions = ai_result["questions"]
 
         if not ai_questions:
@@ -97,18 +104,9 @@ def analyze():
 
         logger.info(f"[{job_id}] AI detected {len(ai_questions)} questions")
 
-        # Update exam_type from AI if we didn't have it
-        if not exam_type or exam_type == "UNKNOWN":
-            exam_type = ai_result.get("exam_type", "UNKNOWN")
-
-        # Step 3: Subtopic Matching
-        logger.info(f"[{job_id}] Step 3: Subtopic matching")
-        if exam_type and exam_type != "UNKNOWN":
-            ai_questions = subtopic_matcher.match_all(ai_questions, exam_type)
-        else:
-            for q in ai_questions:
-                q["subtopic_number"] = "N/A"
-                q["match_confidence"] = 0
+        # Step 3: Subtopic Matching — always run with known exam_type
+        logger.info(f"[{job_id}] Step 3: Subtopic matching (exam_type={exam_type})")
+        ai_questions = subtopic_matcher.match_all(ai_questions, exam_type)
 
         # Step 4: Generate outputs
         logger.info(f"[{job_id}] Step 4: Generating DOCX/XLSX")
@@ -116,7 +114,7 @@ def analyze():
         metadata = {
             "paper_name": paper_name,
             "exam_type": exam_type,
-            "subject": subject,
+            "subjects": subjects_str,
             "model_used": model_id,
         }
 
@@ -137,7 +135,7 @@ def analyze():
             "upload_id": upload_id,
             "questions_count": len(ai_questions),
             "exam_type": exam_type,
-            "subject": subject,
+            "subjects": subjects_str,
             "model_used": model_id,
             "processing_time": round(elapsed, 1),
             "docx_filename": docx_filename,
